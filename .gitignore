@@ -1,0 +1,6 @@
+# IDE Noise
+.idea
+# Sensitive Info
+.env
+# OS Noise
+.DS_Store
