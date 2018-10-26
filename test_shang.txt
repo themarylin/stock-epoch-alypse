@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 
 All Work and No Play Makes Jack a Dull Boy. --Shang
+=======
+hello, this is mary!
+>>>>>>> dev_master
