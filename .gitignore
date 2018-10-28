@@ -4,5 +4,7 @@
 .env
 # OS Noise
 .DS_Store
-#test gitWorkFlow
+# test gitWorkFlow
 test.txt
+# jupyter notebook checkpoints
+.ipynb_checkpoints
