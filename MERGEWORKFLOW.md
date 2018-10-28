@@ -13,7 +13,7 @@
  ```git push -u origin {name of your branch}```
 
 ## After you have created a branch
-4.```git pull origin dev_master```
+4. ```git pull origin dev_master```
 
 5. merge the dev_master branch to your own branch  
 ```git merge dev_master```
