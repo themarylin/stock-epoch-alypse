@@ -8,6 +8,7 @@
 2. then create a branch
 ```git checkout -b {name of your branch}```
 ^ this creates a local branch on your desktop
+when creating this branch, make sure that this is a feature/{function name} this will help me figure out what kind of functions are being merged to the dev_master branch
 
 3. then create a remote branch that is connected to your local branch
  ```git push -u origin {name of your branch}```
@@ -20,7 +21,7 @@
 
 6. edit your file you want to edit
 
-7.
+7. 
 ```git add .```
 ```git commit -m "message"```
 ```git push origin {your branch name}```
