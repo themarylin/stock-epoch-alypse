@@ -53,6 +53,34 @@ app = Flask(__name__, static_folder='./static', static_url_path='')
 def index():
     return render_template('index.html')
 
+@app.route("/about-us")
+def about():
+    return render_template('about-us.html')
+
+@app.route("/blog")
+def blog():
+    return render_template('blog.html')
+
+@app.route("/contact")
+def contact():
+    return render_template('contact.html')
+
+@app.route("/elements")
+def elements():
+    return render_template('elements.html')
+
+@app.route("/portfolio")
+def portfolio():
+    return render_template('portfolio.html')
+
+@app.route("/service")
+def service():
+    return render_template('service.html')
+
+@app.route("/single-blog")
+def single():
+    return render_template('single-blog.html')
+
 #########################################################
 # API Endpoints #
 #########################################################
