@@ -12,38 +12,60 @@ from flask import render_template
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 from sqlalchemy import text
+from sqlalchemy.ext.automap import automap_base
 
 import pymysql
 import json
 
-# load_dotenv()
+from flask.json import JSONEncoder
+from datetime import date
 
-# pymysql.install_as_MySQLdb()
+pymysql.install_as_MySQLdb()
+load_dotenv()
+
+## Custom datetime class
+class CustomJSONEncoder(JSONEncoder):
+
+    def default(self, obj):
+        try:
+            if isinstance(obj, date):
+                return obj.isoformat()
+            iterable = iter(obj)
+        except TypeError:
+            pass
+        else:
+            return list(iterable)
+        return JSONEncoder.default(self, obj)
 
 # #################################################
 # # Database Setup
 # #################################################
-# username = os.getenv("DATABASE_USERNAME")
-# password = os.getenv("DATABASE_PASSWORD")
-# host = os.getenv("DATABASE_HOST")
-# port = os.getenv("DATABASE_PORT")
-# database = os.getenv("DATABASE_NAME")
+username = os.getenv("DATABASE_USERNAME")
+password = os.getenv("DATABASE_PASSWORD")
+host = os.getenv("DATABASE_HOST")
+port = os.getenv("DATABASE_PORT")
+database = os.getenv("DATABASE_NAME")
 
-# # Format:
-# # `<Dialect>://<Username>:<Password>@<Host Address>:<Port>/<Database>`
-# # Using f-string notation: https://docs.python.org/3/reference/lexical_analysis.html#f-strings
-# connection = f"mysql://{username}:{password}@{host}:{port}/{database}"
+# Format:
+# <Dialect>://<Username>:<Password>@<Host Address>:<Port>/<Database>`
+# Using f-string notation: https://docs.python.org/3/reference/lexical_analysis.html#f-strings
+connection = f"mysql://{username}:{password}@{host}:{port}/{database}"
 
-# # engine = create_engine(connection, pool_recycle=1)
-# engine = create_engine(connection)
-# conn = engine.connect()  # <-- this line is not strictly necessary, but it's ref'd in the docs
-# session = Session(bind=engine)
+Base = automap_base()
+engine = create_engine(connection, pool_recycle=1)
+conn = engine.connect()  # <-- this line is not strictly necessary, but it's ref'd in the docs
+
+# Generating base classes
+Base.prepare(engine, reflect=True)
+StockData = Base.classes.sp5data
+session = Session(bind=engine)
 
 #########################################################
 # Flask Setup #
 #########################################################
 
 app = Flask(__name__, static_folder='./static', static_url_path='')
+app.json_encoder = CustomJSONEncoder
 
 #########################################################
 # Flask Routes #
@@ -83,11 +105,23 @@ def single():
 
 #########################################################
 # API Endpoints #
-#########################################################
+########################################################
 
-# @app.route("/api/v1.0/something")
-# def something():
-#     return jsonify(results)
+## Endpoint for Disney
+@app.route("/api/dis", methods=['GET'])
+def get_json():
+    session = Session(bind=engine)
+    results = session.query(StockData.date, StockData.adj_close).filter_by(stock="DIS")
+    data = [{
+        'company':'DIS',
+        'data':
+        {
+            result.date.strftime("%Y-%m-%d %H:%M:%S"): str(result.adj_close)
+            for result in results
+        }
+    }]
+    session.close()
+    return jsonify(data)
 
 #########################################################
 if __name__ == '__main__':
