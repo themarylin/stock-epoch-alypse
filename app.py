@@ -73,13 +73,18 @@ def elements():
 def portfolio():
     return render_template('portfolio.html')
 
-@app.route("/service")
-def service():
-    return render_template('service.html')
+@app.route("/machinelearning")
+def machinelearning():
+    return render_template('machinelearning.html')
 
 @app.route("/single-blog")
 def single():
     return render_template('single-blog.html')
+
+@app.route("/chartwitheventmarker")
+def chartwitheventmarker():
+    return render_template('chartwitheventmarker.html')
+
 
 #########################################################
 # API Endpoints #
