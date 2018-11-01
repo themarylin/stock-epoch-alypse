@@ -70,8 +70,18 @@ def index():
     return render_template('index.html')
 
 @app.route("/get-started")
-def about():
+def get_started():
     return render_template('get-started.html')
+
+@app.route("/machinelearning")
+def machinelearning():
+    return render_template('machinelearning.html')
+
+@app.route("/portfolio")
+def portfolio():
+    return render_template('portfolio.html')
+
+#########################################################
 
 @app.route("/blog")
 def blog():
@@ -85,22 +95,9 @@ def contact():
 def elements():
     return render_template('elements.html')
 
-@app.route("/portfolio")
-def portfolio():
-    return render_template('portfolio.html')
-
-@app.route("/machinelearning")
-def machinelearning():
-    return render_template('machinelearning.html')
-
 @app.route("/single-blog")
 def single():
     return render_template('single-blog.html')
-
-@app.route("/chartwitheventmarker")
-def chartwitheventmarker():
-    return render_template('chartwitheventmarker.html')
-
 
 #########################################################
 # API Endpoints #

@@ -1,11 +1,6 @@
-<!--================ First Line Area =================-->
-<div id="container"></div>
-<script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-base.min.js"></script>
-<script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-ui.min.js"></script>
-<script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-exports.min.js"></script>
-<script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-stock.min.js"></script>
-<script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-data-adapter.min.js"></script>
-<script type="text/javascript">anychart.onDocumentReady(function () {
+// this script creates a stock chart with event-markers for DIS stock.
+
+anychart.onDocumentReady(function () {
     // The data used in this sample can be obtained from the CDN
     // https://cdn.anychart.com/samples/stock-general-features/displaying-data-in-millisecond/data.csv
     anychart.data.loadCsvFile('https://cdn.anychart.com/samples/stock-general-features/displaying-data-in-millisecond/data.csv', function (data) {
@@ -17,7 +12,7 @@
         var chart = anychart.stock();
 
         // set chart title
-        chart.title('Crystal Fluctuations');
+        chart.title('DIS Stock Price Changes');
 
         // create plot on the chart
         var plot = chart.plot(0);
@@ -50,5 +45,4 @@
         // init range selector
         rangeSelector.render(chart);
     });
-});</script>
-<!--================ End First Line Area =================-->
+});
