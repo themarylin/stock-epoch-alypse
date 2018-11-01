@@ -1,0 +1,4538 @@
+[
+    {
+      "date": "9/30/2015 0:00",
+      "DIS": 97.74,
+      "earning_rate": 1,
+      "compound_earning": 1
+    },
+    {
+      "date": "10/1/2015 0:00",
+      "DIS": 98.19,
+      "earning_rate": 0.003,
+      "compound_earning": 1.003
+    },
+    {
+      "date": "10/2/2015 0:00",
+      "DIS": 98.5,
+      "earning_rate": 0.002,
+      "compound_earning": 1.006
+    },
+    {
+      "date": "10/5/2015 0:00",
+      "DIS": 99.32,
+      "earning_rate": 0.006,
+      "compound_earning": 1.012
+    },
+    {
+      "date": "10/6/2015 0:00",
+      "DIS": 99.24,
+      "earning_rate": 0,
+      "compound_earning": 1.012
+    },
+    {
+      "date": "10/7/2015 0:00",
+      "DIS": 98.88,
+      "earning_rate": 0,
+      "compound_earning": 1.012
+    },
+    {
+      "date": "10/8/2015 0:00",
+      "DIS": 100.04,
+      "earning_rate": 0.009,
+      "compound_earning": 1.021
+    },
+    {
+      "date": "10/9/2015 0:00",
+      "DIS": 100.95,
+      "earning_rate": 0.007,
+      "compound_earning": 1.028
+    },
+    {
+      "date": "10/12/2015 0:00",
+      "DIS": 101.71,
+      "earning_rate": 0.006,
+      "compound_earning": 1.034
+    },
+    {
+      "date": "10/13/2015 0:00",
+      "DIS": 101.94,
+      "earning_rate": 0.002,
+      "compound_earning": 1.036
+    },
+    {
+      "date": "10/14/2015 0:00",
+      "DIS": 101.12,
+      "earning_rate": 0,
+      "compound_earning": 1.036
+    },
+    {
+      "date": "10/15/2015 0:00",
+      "DIS": 103.18,
+      "earning_rate": 0.015,
+      "compound_earning": 1.051
+    },
+    {
+      "date": "10/16/2015 0:00",
+      "DIS": 103.52,
+      "earning_rate": 0.002,
+      "compound_earning": 1.054
+    },
+    {
+      "date": "10/19/2015 0:00",
+      "DIS": 104.69,
+      "earning_rate": 0.008,
+      "compound_earning": 1.063
+    },
+    {
+      "date": "10/20/2015 0:00",
+      "DIS": 105.05,
+      "earning_rate": 0.003,
+      "compound_earning": 1.066
+    },
+    {
+      "date": "10/21/2015 0:00",
+      "DIS": 105.29,
+      "earning_rate": 0.002,
+      "compound_earning": 1.067
+    },
+    {
+      "date": "10/22/2015 0:00",
+      "DIS": 108.31,
+      "earning_rate": 0.022,
+      "compound_earning": 1.09
+    },
+    {
+      "date": "10/23/2015 0:00",
+      "DIS": 108.15,
+      "earning_rate": 0,
+      "compound_earning": 1.09
+    },
+    {
+      "date": "10/26/2015 0:00",
+      "DIS": 108.57,
+      "earning_rate": 0.003,
+      "compound_earning": 1.094
+    },
+    {
+      "date": "10/27/2015 0:00",
+      "DIS": 108.8,
+      "earning_rate": 0.002,
+      "compound_earning": 1.095
+    },
+    {
+      "date": "10/28/2015 0:00",
+      "DIS": 109.35,
+      "earning_rate": 0.004,
+      "compound_earning": 1.099
+    },
+    {
+      "date": "10/29/2015 0:00",
+      "DIS": 110.02,
+      "earning_rate": 0.005,
+      "compound_earning": 1.105
+    },
+    {
+      "date": "10/30/2015 0:00",
+      "DIS": 108.78,
+      "earning_rate": 0,
+      "compound_earning": 1.105
+    },
+    {
+      "date": "11/2/2015 0:00",
+      "DIS": 110.02,
+      "earning_rate": 0.009,
+      "compound_earning": 1.114
+    },
+    {
+      "date": "11/3/2015 0:00",
+      "DIS": 110.5,
+      "earning_rate": 0.003,
+      "compound_earning": 1.118
+    },
+    {
+      "date": "11/4/2015 0:00",
+      "DIS": 108.31,
+      "earning_rate": 0,
+      "compound_earning": 1.118
+    },
+    {
+      "date": "11/5/2015 0:00",
+      "DIS": 108.07,
+      "earning_rate": 0,
+      "compound_earning": 1.118
+    },
+    {
+      "date": "11/6/2015 0:00",
+      "DIS": 110.62,
+      "earning_rate": 0.018,
+      "compound_earning": 1.137
+    },
+    {
+      "date": "11/9/2015 0:00",
+      "DIS": 111.34,
+      "earning_rate": 0.005,
+      "compound_earning": 1.143
+    },
+    {
+      "date": "11/10/2015 0:00",
+      "DIS": 112.3,
+      "earning_rate": 0.006,
+      "compound_earning": 1.15
+    },
+    {
+      "date": "11/11/2015 0:00",
+      "DIS": 111.43,
+      "earning_rate": 0,
+      "compound_earning": 1.15
+    },
+    {
+      "date": "11/12/2015 0:00",
+      "DIS": 111.14,
+      "earning_rate": 0,
+      "compound_earning": 1.15
+    },
+    {
+      "date": "11/13/2015 0:00",
+      "DIS": 109.83,
+      "earning_rate": 0,
+      "compound_earning": 1.15
+    },
+    {
+      "date": "11/16/2015 0:00",
+      "DIS": 110.86,
+      "earning_rate": 0.007,
+      "compound_earning": 1.158
+    },
+    {
+      "date": "11/17/2015 0:00",
+      "DIS": 111.06,
+      "earning_rate": 0.001,
+      "compound_earning": 1.16
+    },
+    {
+      "date": "11/18/2015 0:00",
+      "DIS": 112.98,
+      "earning_rate": 0.013,
+      "compound_earning": 1.175
+    },
+    {
+      "date": "11/19/2015 0:00",
+      "DIS": 113.53,
+      "earning_rate": 0.004,
+      "compound_earning": 1.179
+    },
+    {
+      "date": "11/20/2015 0:00",
+      "DIS": 114.83,
+      "earning_rate": 0.009,
+      "compound_earning": 1.189
+    },
+    {
+      "date": "11/23/2015 0:00",
+      "DIS": 114.21,
+      "earning_rate": 0,
+      "compound_earning": 1.189
+    },
+    {
+      "date": "11/24/2015 0:00",
+      "DIS": 112.8,
+      "earning_rate": 0,
+      "compound_earning": 1.189
+    },
+    {
+      "date": "11/25/2015 0:00",
+      "DIS": 113.49,
+      "earning_rate": 0.005,
+      "compound_earning": 1.195
+    },
+    {
+      "date": "11/27/2015 0:00",
+      "DIS": 110.11,
+      "earning_rate": 0,
+      "compound_earning": 1.195
+    },
+    {
+      "date": "11/30/2015 0:00",
+      "DIS": 108.52,
+      "earning_rate": 0,
+      "compound_earning": 1.195
+    },
+    {
+      "date": "12/1/2015 0:00",
+      "DIS": 110.35,
+      "earning_rate": 0.013,
+      "compound_earning": 1.21
+    },
+    {
+      "date": "12/2/2015 0:00",
+      "DIS": 109.02,
+      "earning_rate": 0,
+      "compound_earning": 1.21
+    },
+    {
+      "date": "12/3/2015 0:00",
+      "DIS": 107.01,
+      "earning_rate": 0,
+      "compound_earning": 1.21
+    },
+    {
+      "date": "12/4/2015 0:00",
+      "DIS": 109.25,
+      "earning_rate": 0.016,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/7/2015 0:00",
+      "DIS": 108.86,
+      "earning_rate": 0,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/8/2015 0:00",
+      "DIS": 107.57,
+      "earning_rate": 0,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/9/2015 0:00",
+      "DIS": 106.6,
+      "earning_rate": 0,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/10/2015 0:00",
+      "DIS": 106.6,
+      "earning_rate": 0,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/11/2015 0:00",
+      "DIS": 103.99,
+      "earning_rate": 0,
+      "compound_earning": 1.229
+    },
+    {
+      "date": "12/14/2015 0:00",
+      "DIS": 105.25,
+      "earning_rate": 0.009,
+      "compound_earning": 1.24
+    },
+    {
+      "date": "12/15/2015 0:00",
+      "DIS": 107.95,
+      "earning_rate": 0.019,
+      "compound_earning": 1.264
+    },
+    {
+      "date": "12/16/2015 0:00",
+      "DIS": 109.52,
+      "earning_rate": 0.011,
+      "compound_earning": 1.278
+    },
+    {
+      "date": "12/17/2015 0:00",
+      "DIS": 107.81,
+      "earning_rate": 0,
+      "compound_earning": 1.278
+    },
+    {
+      "date": "12/18/2015 0:00",
+      "DIS": 103.68,
+      "earning_rate": 0,
+      "compound_earning": 1.278
+    },
+    {
+      "date": "12/21/2015 0:00",
+      "DIS": 102.59,
+      "earning_rate": 0,
+      "compound_earning": 1.278
+    },
+    {
+      "date": "12/22/2015 0:00",
+      "DIS": 102.74,
+      "earning_rate": 0.001,
+      "compound_earning": 1.279
+    },
+    {
+      "date": "12/23/2015 0:00",
+      "DIS": 101.6,
+      "earning_rate": 0,
+      "compound_earning": 1.279
+    },
+    {
+      "date": "12/24/2015 0:00",
+      "DIS": 101.89,
+      "earning_rate": 0.002,
+      "compound_earning": 1.282
+    },
+    {
+      "date": "12/28/2015 0:00",
+      "DIS": 103.23,
+      "earning_rate": 0.01,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "12/29/2015 0:00",
+      "DIS": 103.06,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "12/30/2015 0:00",
+      "DIS": 102.35,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "12/31/2015 0:00",
+      "DIS": 101.14,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/4/2016 0:00",
+      "DIS": 99.12,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/5/2016 0:00",
+      "DIS": 97.11,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/6/2016 0:00",
+      "DIS": 96.6,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/7/2016 0:00",
+      "DIS": 95.77,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/8/2016 0:00",
+      "DIS": 95.53,
+      "earning_rate": 0,
+      "compound_earning": 1.295
+    },
+    {
+      "date": "1/11/2016 0:00",
+      "DIS": 96.17,
+      "earning_rate": 0.005,
+      "compound_earning": 1.301
+    },
+    {
+      "date": "1/12/2016 0:00",
+      "DIS": 97.65,
+      "earning_rate": 0.012,
+      "compound_earning": 1.316
+    },
+    {
+      "date": "1/13/2016 0:00",
+      "DIS": 94.79,
+      "earning_rate": 0,
+      "compound_earning": 1.316
+    },
+    {
+      "date": "1/14/2016 0:00",
+      "DIS": 95.39,
+      "earning_rate": 0.005,
+      "compound_earning": 1.322
+    },
+    {
+      "date": "1/15/2016 0:00",
+      "DIS": 90.38,
+      "earning_rate": 0,
+      "compound_earning": 1.322
+    },
+    {
+      "date": "1/19/2016 0:00",
+      "DIS": 90.44,
+      "earning_rate": 0,
+      "compound_earning": 1.323
+    },
+    {
+      "date": "1/20/2016 0:00",
+      "DIS": 89.07,
+      "earning_rate": 0,
+      "compound_earning": 1.323
+    },
+    {
+      "date": "1/21/2016 0:00",
+      "DIS": 90.49,
+      "earning_rate": 0.012,
+      "compound_earning": 1.339
+    },
+    {
+      "date": "1/22/2016 0:00",
+      "DIS": 93.26,
+      "earning_rate": 0.023,
+      "compound_earning": 1.37
+    },
+    {
+      "date": "1/25/2016 0:00",
+      "DIS": 91.72,
+      "earning_rate": 0,
+      "compound_earning": 1.37
+    },
+    {
+      "date": "1/26/2016 0:00",
+      "DIS": 92.66,
+      "earning_rate": 0.008,
+      "compound_earning": 1.38
+    },
+    {
+      "date": "1/27/2016 0:00",
+      "DIS": 90.78,
+      "earning_rate": 0,
+      "compound_earning": 1.38
+    },
+    {
+      "date": "1/28/2016 0:00",
+      "DIS": 90.02,
+      "earning_rate": 0,
+      "compound_earning": 1.38
+    },
+    {
+      "date": "1/29/2016 0:00",
+      "DIS": 92.23,
+      "earning_rate": 0.018,
+      "compound_earning": 1.406
+    },
+    {
+      "date": "2/1/2016 0:00",
+      "DIS": 91.58,
+      "earning_rate": 0,
+      "compound_earning": 1.406
+    },
+    {
+      "date": "2/2/2016 0:00",
+      "DIS": 89.63,
+      "earning_rate": 0,
+      "compound_earning": 1.406
+    },
+    {
+      "date": "2/3/2016 0:00",
+      "DIS": 91.57,
+      "earning_rate": 0.016,
+      "compound_earning": 1.428
+    },
+    {
+      "date": "2/4/2016 0:00",
+      "DIS": 91.85,
+      "earning_rate": 0.002,
+      "compound_earning": 1.432
+    },
+    {
+      "date": "2/5/2016 0:00",
+      "DIS": 90.38,
+      "earning_rate": 0,
+      "compound_earning": 1.432
+    },
+    {
+      "date": "2/8/2016 0:00",
+      "DIS": 88.66,
+      "earning_rate": 0,
+      "compound_earning": 1.432
+    },
+    {
+      "date": "2/9/2016 0:00",
+      "DIS": 88.86,
+      "earning_rate": 0.002,
+      "compound_earning": 1.434
+    },
+    {
+      "date": "2/10/2016 0:00",
+      "DIS": 85.52,
+      "earning_rate": 0,
+      "compound_earning": 1.434
+    },
+    {
+      "date": "2/11/2016 0:00",
+      "DIS": 86.92,
+      "earning_rate": 0.012,
+      "compound_earning": 1.452
+    },
+    {
+      "date": "2/12/2016 0:00",
+      "DIS": 87.73,
+      "earning_rate": 0.007,
+      "compound_earning": 1.462
+    },
+    {
+      "date": "2/16/2016 0:00",
+      "DIS": 89.42,
+      "earning_rate": 0.014,
+      "compound_earning": 1.483
+    },
+    {
+      "date": "2/17/2016 0:00",
+      "DIS": 91.92,
+      "earning_rate": 0.021,
+      "compound_earning": 1.514
+    },
+    {
+      "date": "2/18/2016 0:00",
+      "DIS": 91.6,
+      "earning_rate": 0,
+      "compound_earning": 1.514
+    },
+    {
+      "date": "2/19/2016 0:00",
+      "DIS": 91.45,
+      "earning_rate": 0,
+      "compound_earning": 1.514
+    },
+    {
+      "date": "2/22/2016 0:00",
+      "DIS": 92.75,
+      "earning_rate": 0.011,
+      "compound_earning": 1.53
+    },
+    {
+      "date": "2/23/2016 0:00",
+      "DIS": 91.8,
+      "earning_rate": 0,
+      "compound_earning": 1.53
+    },
+    {
+      "date": "2/24/2016 0:00",
+      "DIS": 91.85,
+      "earning_rate": 0,
+      "compound_earning": 1.531
+    },
+    {
+      "date": "2/25/2016 0:00",
+      "DIS": 92.06,
+      "earning_rate": 0.002,
+      "compound_earning": 1.533
+    },
+    {
+      "date": "2/26/2016 0:00",
+      "DIS": 91.73,
+      "earning_rate": 0,
+      "compound_earning": 1.533
+    },
+    {
+      "date": "2/29/2016 0:00",
+      "DIS": 91.94,
+      "earning_rate": 0.002,
+      "compound_earning": 1.536
+    },
+    {
+      "date": "3/1/2016 0:00",
+      "DIS": 93.99,
+      "earning_rate": 0.017,
+      "compound_earning": 1.562
+    },
+    {
+      "date": "3/2/2016 0:00",
+      "DIS": 93.36,
+      "earning_rate": 0,
+      "compound_earning": 1.562
+    },
+    {
+      "date": "3/3/2016 0:00",
+      "DIS": 95.11,
+      "earning_rate": 0.014,
+      "compound_earning": 1.584
+    },
+    {
+      "date": "3/4/2016 0:00",
+      "DIS": 94.79,
+      "earning_rate": 0,
+      "compound_earning": 1.584
+    },
+    {
+      "date": "3/7/2016 0:00",
+      "DIS": 95.66,
+      "earning_rate": 0.007,
+      "compound_earning": 1.595
+    },
+    {
+      "date": "3/8/2016 0:00",
+      "DIS": 94.15,
+      "earning_rate": 0,
+      "compound_earning": 1.595
+    },
+    {
+      "date": "3/9/2016 0:00",
+      "DIS": 94,
+      "earning_rate": 0,
+      "compound_earning": 1.595
+    },
+    {
+      "date": "3/10/2016 0:00",
+      "DIS": 93.4,
+      "earning_rate": 0,
+      "compound_earning": 1.595
+    },
+    {
+      "date": "3/11/2016 0:00",
+      "DIS": 94.27,
+      "earning_rate": 0.007,
+      "compound_earning": 1.606
+    },
+    {
+      "date": "3/14/2016 0:00",
+      "DIS": 95.1,
+      "earning_rate": 0.007,
+      "compound_earning": 1.616
+    },
+    {
+      "date": "3/15/2016 0:00",
+      "DIS": 94.55,
+      "earning_rate": 0,
+      "compound_earning": 1.616
+    },
+    {
+      "date": "3/16/2016 0:00",
+      "DIS": 94.75,
+      "earning_rate": 0.002,
+      "compound_earning": 1.619
+    },
+    {
+      "date": "3/17/2016 0:00",
+      "DIS": 95.86,
+      "earning_rate": 0.009,
+      "compound_earning": 1.633
+    },
+    {
+      "date": "3/18/2016 0:00",
+      "DIS": 95.48,
+      "earning_rate": 0,
+      "compound_earning": 1.633
+    },
+    {
+      "date": "3/21/2016 0:00",
+      "DIS": 94.77,
+      "earning_rate": 0,
+      "compound_earning": 1.633
+    },
+    {
+      "date": "3/22/2016 0:00",
+      "DIS": 93.92,
+      "earning_rate": 0,
+      "compound_earning": 1.633
+    },
+    {
+      "date": "3/23/2016 0:00",
+      "DIS": 93.2,
+      "earning_rate": 0,
+      "compound_earning": 1.633
+    },
+    {
+      "date": "3/24/2016 0:00",
+      "DIS": 93.57,
+      "earning_rate": 0.003,
+      "compound_earning": 1.638
+    },
+    {
+      "date": "3/28/2016 0:00",
+      "DIS": 94.41,
+      "earning_rate": 0.007,
+      "compound_earning": 1.649
+    },
+    {
+      "date": "3/29/2016 0:00",
+      "DIS": 94.48,
+      "earning_rate": 0.001,
+      "compound_earning": 1.65
+    },
+    {
+      "date": "3/30/2016 0:00",
+      "DIS": 95.2,
+      "earning_rate": 0.006,
+      "compound_earning": 1.659
+    },
+    {
+      "date": "3/31/2016 0:00",
+      "DIS": 95.58,
+      "earning_rate": 0.003,
+      "compound_earning": 1.664
+    },
+    {
+      "date": "4/1/2016 0:00",
+      "DIS": 95.35,
+      "earning_rate": 0,
+      "compound_earning": 1.664
+    },
+    {
+      "date": "4/4/2016 0:00",
+      "DIS": 94.98,
+      "earning_rate": 0,
+      "compound_earning": 1.664
+    },
+    {
+      "date": "4/5/2016 0:00",
+      "DIS": 93.36,
+      "earning_rate": 0,
+      "compound_earning": 1.664
+    },
+    {
+      "date": "4/6/2016 0:00",
+      "DIS": 93.82,
+      "earning_rate": 0.004,
+      "compound_earning": 1.671
+    },
+    {
+      "date": "4/7/2016 0:00",
+      "DIS": 92.55,
+      "earning_rate": 0,
+      "compound_earning": 1.671
+    },
+    {
+      "date": "4/8/2016 0:00",
+      "DIS": 92.8,
+      "earning_rate": 0.002,
+      "compound_earning": 1.674
+    },
+    {
+      "date": "4/11/2016 0:00",
+      "DIS": 92.66,
+      "earning_rate": 0,
+      "compound_earning": 1.674
+    },
+    {
+      "date": "4/12/2016 0:00",
+      "DIS": 93.7,
+      "earning_rate": 0.008,
+      "compound_earning": 1.688
+    },
+    {
+      "date": "4/13/2016 0:00",
+      "DIS": 95.75,
+      "earning_rate": 0.016,
+      "compound_earning": 1.716
+    },
+    {
+      "date": "4/14/2016 0:00",
+      "DIS": 94.93,
+      "earning_rate": 0,
+      "compound_earning": 1.716
+    },
+    {
+      "date": "4/15/2016 0:00",
+      "DIS": 94.89,
+      "earning_rate": 0,
+      "compound_earning": 1.716
+    },
+    {
+      "date": "4/18/2016 0:00",
+      "DIS": 97.67,
+      "earning_rate": 0.022,
+      "compound_earning": 1.753
+    },
+    {
+      "date": "4/19/2016 0:00",
+      "DIS": 98.79,
+      "earning_rate": 0.009,
+      "compound_earning": 1.768
+    },
+    {
+      "date": "4/20/2016 0:00",
+      "DIS": 99.4,
+      "earning_rate": 0.005,
+      "compound_earning": 1.777
+    },
+    {
+      "date": "4/21/2016 0:00",
+      "DIS": 99.05,
+      "earning_rate": 0,
+      "compound_earning": 1.777
+    },
+    {
+      "date": "4/22/2016 0:00",
+      "DIS": 99.88,
+      "earning_rate": 0.006,
+      "compound_earning": 1.788
+    },
+    {
+      "date": "4/25/2016 0:00",
+      "DIS": 100.65,
+      "earning_rate": 0.006,
+      "compound_earning": 1.798
+    },
+    {
+      "date": "4/26/2016 0:00",
+      "DIS": 100.96,
+      "earning_rate": 0.002,
+      "compound_earning": 1.802
+    },
+    {
+      "date": "4/27/2016 0:00",
+      "DIS": 101.33,
+      "earning_rate": 0.003,
+      "compound_earning": 1.807
+    },
+    {
+      "date": "4/28/2016 0:00",
+      "DIS": 100.13,
+      "earning_rate": 0,
+      "compound_earning": 1.807
+    },
+    {
+      "date": "4/29/2016 0:00",
+      "DIS": 99.39,
+      "earning_rate": 0,
+      "compound_earning": 1.807
+    },
+    {
+      "date": "5/2/2016 0:00",
+      "DIS": 100.45,
+      "earning_rate": 0.008,
+      "compound_earning": 1.822
+    },
+    {
+      "date": "5/3/2016 0:00",
+      "DIS": 99.89,
+      "earning_rate": 0,
+      "compound_earning": 1.822
+    },
+    {
+      "date": "5/4/2016 0:00",
+      "DIS": 99.78,
+      "earning_rate": 0,
+      "compound_earning": 1.822
+    },
+    {
+      "date": "5/5/2016 0:00",
+      "DIS": 100.99,
+      "earning_rate": 0.009,
+      "compound_earning": 1.838
+    },
+    {
+      "date": "5/6/2016 0:00",
+      "DIS": 101.58,
+      "earning_rate": 0.004,
+      "compound_earning": 1.846
+    },
+    {
+      "date": "5/9/2016 0:00",
+      "DIS": 101.39,
+      "earning_rate": 0,
+      "compound_earning": 1.846
+    },
+    {
+      "date": "5/10/2016 0:00",
+      "DIS": 102.6,
+      "earning_rate": 0.009,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/11/2016 0:00",
+      "DIS": 98.45,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/12/2016 0:00",
+      "DIS": 97.89,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/13/2016 0:00",
+      "DIS": 96.75,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/16/2016 0:00",
+      "DIS": 96.6,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/17/2016 0:00",
+      "DIS": 96.19,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/18/2016 0:00",
+      "DIS": 95.29,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/19/2016 0:00",
+      "DIS": 94.72,
+      "earning_rate": 0,
+      "compound_earning": 1.863
+    },
+    {
+      "date": "5/20/2016 0:00",
+      "DIS": 96.04,
+      "earning_rate": 0.01,
+      "compound_earning": 1.882
+    },
+    {
+      "date": "5/23/2016 0:00",
+      "DIS": 95.46,
+      "earning_rate": 0,
+      "compound_earning": 1.882
+    },
+    {
+      "date": "5/24/2016 0:00",
+      "DIS": 95.78,
+      "earning_rate": 0.003,
+      "compound_earning": 1.887
+    },
+    {
+      "date": "5/25/2016 0:00",
+      "DIS": 96.11,
+      "earning_rate": 0.003,
+      "compound_earning": 1.892
+    },
+    {
+      "date": "5/26/2016 0:00",
+      "DIS": 96.07,
+      "earning_rate": 0,
+      "compound_earning": 1.892
+    },
+    {
+      "date": "5/27/2016 0:00",
+      "DIS": 96.53,
+      "earning_rate": 0.004,
+      "compound_earning": 1.899
+    },
+    {
+      "date": "5/31/2016 0:00",
+      "DIS": 95.5,
+      "earning_rate": 0,
+      "compound_earning": 1.899
+    },
+    {
+      "date": "6/1/2016 0:00",
+      "DIS": 94.82,
+      "earning_rate": 0,
+      "compound_earning": 1.899
+    },
+    {
+      "date": "6/2/2016 0:00",
+      "DIS": 95.02,
+      "earning_rate": 0.002,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/3/2016 0:00",
+      "DIS": 95.05,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/6/2016 0:00",
+      "DIS": 95.07,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/7/2016 0:00",
+      "DIS": 94.66,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/8/2016 0:00",
+      "DIS": 94.36,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/9/2016 0:00",
+      "DIS": 94.17,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/10/2016 0:00",
+      "DIS": 93.69,
+      "earning_rate": 0,
+      "compound_earning": 1.902
+    },
+    {
+      "date": "6/13/2016 0:00",
+      "DIS": 93.91,
+      "earning_rate": 0.002,
+      "compound_earning": 1.906
+    },
+    {
+      "date": "6/14/2016 0:00",
+      "DIS": 94.71,
+      "earning_rate": 0.006,
+      "compound_earning": 1.918
+    },
+    {
+      "date": "6/15/2016 0:00",
+      "DIS": 94.58,
+      "earning_rate": 0,
+      "compound_earning": 1.918
+    },
+    {
+      "date": "6/16/2016 0:00",
+      "DIS": 94.69,
+      "earning_rate": 0.001,
+      "compound_earning": 1.92
+    },
+    {
+      "date": "6/17/2016 0:00",
+      "DIS": 95.29,
+      "earning_rate": 0.005,
+      "compound_earning": 1.929
+    },
+    {
+      "date": "6/20/2016 0:00",
+      "DIS": 95.83,
+      "earning_rate": 0.004,
+      "compound_earning": 1.937
+    },
+    {
+      "date": "6/21/2016 0:00",
+      "DIS": 95.11,
+      "earning_rate": 0,
+      "compound_earning": 1.937
+    },
+    {
+      "date": "6/22/2016 0:00",
+      "DIS": 95.08,
+      "earning_rate": 0,
+      "compound_earning": 1.937
+    },
+    {
+      "date": "6/23/2016 0:00",
+      "DIS": 95.31,
+      "earning_rate": 0.002,
+      "compound_earning": 1.941
+    },
+    {
+      "date": "6/24/2016 0:00",
+      "DIS": 92.13,
+      "earning_rate": 0,
+      "compound_earning": 1.941
+    },
+    {
+      "date": "6/27/2016 0:00",
+      "DIS": 90.84,
+      "earning_rate": 0,
+      "compound_earning": 1.941
+    },
+    {
+      "date": "6/28/2016 0:00",
+      "DIS": 92.45,
+      "earning_rate": 0.013,
+      "compound_earning": 1.966
+    },
+    {
+      "date": "6/29/2016 0:00",
+      "DIS": 93.34,
+      "earning_rate": 0.007,
+      "compound_earning": 1.981
+    },
+    {
+      "date": "6/30/2016 0:00",
+      "DIS": 94.15,
+      "earning_rate": 0.007,
+      "compound_earning": 1.993
+    },
+    {
+      "date": "7/1/2016 0:00",
+      "DIS": 94.35,
+      "earning_rate": 0.002,
+      "compound_earning": 1.997
+    },
+    {
+      "date": "7/5/2016 0:00",
+      "DIS": 94,
+      "earning_rate": 0,
+      "compound_earning": 1.997
+    },
+    {
+      "date": "7/6/2016 0:00",
+      "DIS": 94.76,
+      "earning_rate": 0.006,
+      "compound_earning": 2.009
+    },
+    {
+      "date": "7/7/2016 0:00",
+      "DIS": 95.4,
+      "earning_rate": 0.005,
+      "compound_earning": 2.019
+    },
+    {
+      "date": "7/8/2016 0:00",
+      "DIS": 96.57,
+      "earning_rate": 0.009,
+      "compound_earning": 2.037
+    },
+    {
+      "date": "7/11/2016 0:00",
+      "DIS": 96.92,
+      "earning_rate": 0.003,
+      "compound_earning": 2.043
+    },
+    {
+      "date": "7/12/2016 0:00",
+      "DIS": 97.14,
+      "earning_rate": 0.002,
+      "compound_earning": 2.046
+    },
+    {
+      "date": "7/13/2016 0:00",
+      "DIS": 96.83,
+      "earning_rate": 0,
+      "compound_earning": 2.046
+    },
+    {
+      "date": "7/14/2016 0:00",
+      "DIS": 96.91,
+      "earning_rate": 0.001,
+      "compound_earning": 2.048
+    },
+    {
+      "date": "7/15/2016 0:00",
+      "DIS": 96.75,
+      "earning_rate": 0,
+      "compound_earning": 2.048
+    },
+    {
+      "date": "7/18/2016 0:00",
+      "DIS": 97.09,
+      "earning_rate": 0.003,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/19/2016 0:00",
+      "DIS": 96.43,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/20/2016 0:00",
+      "DIS": 95.22,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/21/2016 0:00",
+      "DIS": 95.01,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/22/2016 0:00",
+      "DIS": 94.72,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/25/2016 0:00",
+      "DIS": 94.41,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/26/2016 0:00",
+      "DIS": 93.73,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/27/2016 0:00",
+      "DIS": 93.39,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/28/2016 0:00",
+      "DIS": 92.98,
+      "earning_rate": 0,
+      "compound_earning": 2.053
+    },
+    {
+      "date": "7/29/2016 0:00",
+      "DIS": 93.02,
+      "earning_rate": 0,
+      "compound_earning": 2.054
+    },
+    {
+      "date": "8/1/2016 0:00",
+      "DIS": 92.62,
+      "earning_rate": 0,
+      "compound_earning": 2.054
+    },
+    {
+      "date": "8/2/2016 0:00",
+      "DIS": 92.11,
+      "earning_rate": 0,
+      "compound_earning": 2.054
+    },
+    {
+      "date": "8/3/2016 0:00",
+      "DIS": 93.15,
+      "earning_rate": 0.008,
+      "compound_earning": 2.071
+    },
+    {
+      "date": "8/4/2016 0:00",
+      "DIS": 92.25,
+      "earning_rate": 0,
+      "compound_earning": 2.071
+    },
+    {
+      "date": "8/5/2016 0:00",
+      "DIS": 92.9,
+      "earning_rate": 0.005,
+      "compound_earning": 2.082
+    },
+    {
+      "date": "8/8/2016 0:00",
+      "DIS": 92.82,
+      "earning_rate": 0,
+      "compound_earning": 2.082
+    },
+    {
+      "date": "8/9/2016 0:00",
+      "DIS": 93.71,
+      "earning_rate": 0.007,
+      "compound_earning": 2.097
+    },
+    {
+      "date": "8/10/2016 0:00",
+      "DIS": 94.87,
+      "earning_rate": 0.009,
+      "compound_earning": 2.117
+    },
+    {
+      "date": "8/11/2016 0:00",
+      "DIS": 94.78,
+      "earning_rate": 0,
+      "compound_earning": 2.117
+    },
+    {
+      "date": "8/12/2016 0:00",
+      "DIS": 93.88,
+      "earning_rate": 0,
+      "compound_earning": 2.117
+    },
+    {
+      "date": "8/15/2016 0:00",
+      "DIS": 94.13,
+      "earning_rate": 0.002,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/16/2016 0:00",
+      "DIS": 93.92,
+      "earning_rate": 0,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/17/2016 0:00",
+      "DIS": 93.91,
+      "earning_rate": 0,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/18/2016 0:00",
+      "DIS": 93.7,
+      "earning_rate": 0,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/19/2016 0:00",
+      "DIS": 93.44,
+      "earning_rate": 0,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/22/2016 0:00",
+      "DIS": 92.94,
+      "earning_rate": 0,
+      "compound_earning": 2.121
+    },
+    {
+      "date": "8/23/2016 0:00",
+      "DIS": 93.04,
+      "earning_rate": 0.001,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/24/2016 0:00",
+      "DIS": 92.89,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/25/2016 0:00",
+      "DIS": 92.63,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/26/2016 0:00",
+      "DIS": 92.3,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/29/2016 0:00",
+      "DIS": 91.97,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/30/2016 0:00",
+      "DIS": 91.96,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "8/31/2016 0:00",
+      "DIS": 91.57,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "9/1/2016 0:00",
+      "DIS": 91.38,
+      "earning_rate": 0,
+      "compound_earning": 2.123
+    },
+    {
+      "date": "9/2/2016 0:00",
+      "DIS": 91.53,
+      "earning_rate": 0.001,
+      "compound_earning": 2.125
+    },
+    {
+      "date": "9/6/2016 0:00",
+      "DIS": 90.93,
+      "earning_rate": 0,
+      "compound_earning": 2.125
+    },
+    {
+      "date": "9/7/2016 0:00",
+      "DIS": 90.85,
+      "earning_rate": 0,
+      "compound_earning": 2.125
+    },
+    {
+      "date": "9/8/2016 0:00",
+      "DIS": 91.21,
+      "earning_rate": 0.003,
+      "compound_earning": 2.131
+    },
+    {
+      "date": "9/9/2016 0:00",
+      "DIS": 89.59,
+      "earning_rate": 0,
+      "compound_earning": 2.131
+    },
+    {
+      "date": "9/12/2016 0:00",
+      "DIS": 90.78,
+      "earning_rate": 0.01,
+      "compound_earning": 2.153
+    },
+    {
+      "date": "9/13/2016 0:00",
+      "DIS": 89.87,
+      "earning_rate": 0,
+      "compound_earning": 2.153
+    },
+    {
+      "date": "9/14/2016 0:00",
+      "DIS": 89.44,
+      "earning_rate": 0,
+      "compound_earning": 2.153
+    },
+    {
+      "date": "9/15/2016 0:00",
+      "DIS": 89.67,
+      "earning_rate": 0.002,
+      "compound_earning": 2.157
+    },
+    {
+      "date": "9/16/2016 0:00",
+      "DIS": 89.73,
+      "earning_rate": 0.001,
+      "compound_earning": 2.158
+    },
+    {
+      "date": "9/19/2016 0:00",
+      "DIS": 89.8,
+      "earning_rate": 0.001,
+      "compound_earning": 2.159
+    },
+    {
+      "date": "9/20/2016 0:00",
+      "DIS": 90.11,
+      "earning_rate": 0.003,
+      "compound_earning": 2.165
+    },
+    {
+      "date": "9/21/2016 0:00",
+      "DIS": 89.57,
+      "earning_rate": 0,
+      "compound_earning": 2.165
+    },
+    {
+      "date": "9/22/2016 0:00",
+      "DIS": 90.55,
+      "earning_rate": 0.008,
+      "compound_earning": 2.183
+    },
+    {
+      "date": "9/23/2016 0:00",
+      "DIS": 90.42,
+      "earning_rate": 0,
+      "compound_earning": 2.183
+    },
+    {
+      "date": "9/26/2016 0:00",
+      "DIS": 89.15,
+      "earning_rate": 0,
+      "compound_earning": 2.183
+    },
+    {
+      "date": "9/27/2016 0:00",
+      "DIS": 88.92,
+      "earning_rate": 0,
+      "compound_earning": 2.183
+    },
+    {
+      "date": "9/28/2016 0:00",
+      "DIS": 89.38,
+      "earning_rate": 0.004,
+      "compound_earning": 2.191
+    },
+    {
+      "date": "9/29/2016 0:00",
+      "DIS": 88.99,
+      "earning_rate": 0,
+      "compound_earning": 2.191
+    },
+    {
+      "date": "9/30/2016 0:00",
+      "DIS": 90.02,
+      "earning_rate": 0.009,
+      "compound_earning": 2.21
+    },
+    {
+      "date": "10/3/2016 0:00",
+      "DIS": 89.66,
+      "earning_rate": 0,
+      "compound_earning": 2.21
+    },
+    {
+      "date": "10/4/2016 0:00",
+      "DIS": 89.76,
+      "earning_rate": 0.001,
+      "compound_earning": 2.212
+    },
+    {
+      "date": "10/5/2016 0:00",
+      "DIS": 89.62,
+      "earning_rate": 0,
+      "compound_earning": 2.212
+    },
+    {
+      "date": "10/6/2016 0:00",
+      "DIS": 89.99,
+      "earning_rate": 0.003,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/7/2016 0:00",
+      "DIS": 89.66,
+      "earning_rate": 0,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/10/2016 0:00",
+      "DIS": 89.66,
+      "earning_rate": 0,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/11/2016 0:00",
+      "DIS": 89.05,
+      "earning_rate": 0,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/12/2016 0:00",
+      "DIS": 88.62,
+      "earning_rate": 0,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/13/2016 0:00",
+      "DIS": 88.33,
+      "earning_rate": 0,
+      "compound_earning": 2.219
+    },
+    {
+      "date": "10/14/2016 0:00",
+      "DIS": 88.51,
+      "earning_rate": 0.002,
+      "compound_earning": 2.222
+    },
+    {
+      "date": "10/17/2016 0:00",
+      "DIS": 88.05,
+      "earning_rate": 0,
+      "compound_earning": 2.222
+    },
+    {
+      "date": "10/18/2016 0:00",
+      "DIS": 88.38,
+      "earning_rate": 0.003,
+      "compound_earning": 2.228
+    },
+    {
+      "date": "10/19/2016 0:00",
+      "DIS": 89.12,
+      "earning_rate": 0.006,
+      "compound_earning": 2.242
+    },
+    {
+      "date": "10/20/2016 0:00",
+      "DIS": 89.22,
+      "earning_rate": 0.001,
+      "compound_earning": 2.244
+    },
+    {
+      "date": "10/21/2016 0:00",
+      "DIS": 90.19,
+      "earning_rate": 0.008,
+      "compound_earning": 2.263
+    },
+    {
+      "date": "10/24/2016 0:00",
+      "DIS": 90.52,
+      "earning_rate": 0.003,
+      "compound_earning": 2.269
+    },
+    {
+      "date": "10/25/2016 0:00",
+      "DIS": 89.91,
+      "earning_rate": 0,
+      "compound_earning": 2.269
+    },
+    {
+      "date": "10/26/2016 0:00",
+      "DIS": 90.63,
+      "earning_rate": 0.006,
+      "compound_earning": 2.282
+    },
+    {
+      "date": "10/27/2016 0:00",
+      "DIS": 91.15,
+      "earning_rate": 0.004,
+      "compound_earning": 2.292
+    },
+    {
+      "date": "10/28/2016 0:00",
+      "DIS": 90.98,
+      "earning_rate": 0,
+      "compound_earning": 2.292
+    },
+    {
+      "date": "10/31/2016 0:00",
+      "DIS": 89.86,
+      "earning_rate": 0,
+      "compound_earning": 2.292
+    },
+    {
+      "date": "11/1/2016 0:00",
+      "DIS": 89.57,
+      "earning_rate": 0,
+      "compound_earning": 2.292
+    },
+    {
+      "date": "11/2/2016 0:00",
+      "DIS": 89.1,
+      "earning_rate": 0,
+      "compound_earning": 2.292
+    },
+    {
+      "date": "11/3/2016 0:00",
+      "DIS": 90.52,
+      "earning_rate": 0.012,
+      "compound_earning": 2.32
+    },
+    {
+      "date": "11/4/2016 0:00",
+      "DIS": 89.62,
+      "earning_rate": 0,
+      "compound_earning": 2.32
+    },
+    {
+      "date": "11/7/2016 0:00",
+      "DIS": 91.54,
+      "earning_rate": 0.016,
+      "compound_earning": 2.357
+    },
+    {
+      "date": "11/8/2016 0:00",
+      "DIS": 91.49,
+      "earning_rate": 0,
+      "compound_earning": 2.357
+    },
+    {
+      "date": "11/9/2016 0:00",
+      "DIS": 91.75,
+      "earning_rate": 0.002,
+      "compound_earning": 2.362
+    },
+    {
+      "date": "11/10/2016 0:00",
+      "DIS": 92.06,
+      "earning_rate": 0.003,
+      "compound_earning": 2.368
+    },
+    {
+      "date": "11/11/2016 0:00",
+      "DIS": 94.69,
+      "earning_rate": 0.021,
+      "compound_earning": 2.419
+    },
+    {
+      "date": "11/14/2016 0:00",
+      "DIS": 94.93,
+      "earning_rate": 0.002,
+      "compound_earning": 2.423
+    },
+    {
+      "date": "11/15/2016 0:00",
+      "DIS": 94.71,
+      "earning_rate": 0,
+      "compound_earning": 2.423
+    },
+    {
+      "date": "11/16/2016 0:00",
+      "DIS": 96.09,
+      "earning_rate": 0.011,
+      "compound_earning": 2.45
+    },
+    {
+      "date": "11/17/2016 0:00",
+      "DIS": 96.33,
+      "earning_rate": 0.002,
+      "compound_earning": 2.454
+    },
+    {
+      "date": "11/18/2016 0:00",
+      "DIS": 95.24,
+      "earning_rate": 0,
+      "compound_earning": 2.454
+    },
+    {
+      "date": "11/21/2016 0:00",
+      "DIS": 94.65,
+      "earning_rate": 0,
+      "compound_earning": 2.454
+    },
+    {
+      "date": "11/22/2016 0:00",
+      "DIS": 94.72,
+      "earning_rate": 0.001,
+      "compound_earning": 2.456
+    },
+    {
+      "date": "11/23/2016 0:00",
+      "DIS": 95.26,
+      "earning_rate": 0.004,
+      "compound_earning": 2.466
+    },
+    {
+      "date": "11/25/2016 0:00",
+      "DIS": 95.8,
+      "earning_rate": 0.004,
+      "compound_earning": 2.477
+    },
+    {
+      "date": "11/28/2016 0:00",
+      "DIS": 95.94,
+      "earning_rate": 0.001,
+      "compound_earning": 2.479
+    },
+    {
+      "date": "11/29/2016 0:00",
+      "DIS": 96.62,
+      "earning_rate": 0.005,
+      "compound_earning": 2.492
+    },
+    {
+      "date": "11/30/2016 0:00",
+      "DIS": 96.09,
+      "earning_rate": 0,
+      "compound_earning": 2.492
+    },
+    {
+      "date": "12/1/2016 0:00",
+      "DIS": 95.92,
+      "earning_rate": 0,
+      "compound_earning": 2.492
+    },
+    {
+      "date": "12/2/2016 0:00",
+      "DIS": 95.49,
+      "earning_rate": 0,
+      "compound_earning": 2.492
+    },
+    {
+      "date": "12/5/2016 0:00",
+      "DIS": 96.9,
+      "earning_rate": 0.011,
+      "compound_earning": 2.52
+    },
+    {
+      "date": "12/6/2016 0:00",
+      "DIS": 97.58,
+      "earning_rate": 0.005,
+      "compound_earning": 2.533
+    },
+    {
+      "date": "12/7/2016 0:00",
+      "DIS": 98.87,
+      "earning_rate": 0.01,
+      "compound_earning": 2.558
+    },
+    {
+      "date": "12/8/2016 0:00",
+      "DIS": 100.98,
+      "earning_rate": 0.016,
+      "compound_earning": 2.599
+    },
+    {
+      "date": "12/9/2016 0:00",
+      "DIS": 102.42,
+      "earning_rate": 0.011,
+      "compound_earning": 2.627
+    },
+    {
+      "date": "12/12/2016 0:00",
+      "DIS": 101.64,
+      "earning_rate": 0,
+      "compound_earning": 2.627
+    },
+    {
+      "date": "12/13/2016 0:00",
+      "DIS": 101.43,
+      "earning_rate": 0,
+      "compound_earning": 2.627
+    },
+    {
+      "date": "12/14/2016 0:00",
+      "DIS": 101.63,
+      "earning_rate": 0.001,
+      "compound_earning": 2.631
+    },
+    {
+      "date": "12/15/2016 0:00",
+      "DIS": 101.96,
+      "earning_rate": 0.002,
+      "compound_earning": 2.638
+    },
+    {
+      "date": "12/16/2016 0:00",
+      "DIS": 101.49,
+      "earning_rate": 0,
+      "compound_earning": 2.638
+    },
+    {
+      "date": "12/19/2016 0:00",
+      "DIS": 102.85,
+      "earning_rate": 0.01,
+      "compound_earning": 2.664
+    },
+    {
+      "date": "12/20/2016 0:00",
+      "DIS": 103.01,
+      "earning_rate": 0.001,
+      "compound_earning": 2.667
+    },
+    {
+      "date": "12/21/2016 0:00",
+      "DIS": 103.11,
+      "earning_rate": 0.001,
+      "compound_earning": 2.669
+    },
+    {
+      "date": "12/22/2016 0:00",
+      "DIS": 102.97,
+      "earning_rate": 0,
+      "compound_earning": 2.669
+    },
+    {
+      "date": "12/23/2016 0:00",
+      "DIS": 102.7,
+      "earning_rate": 0,
+      "compound_earning": 2.669
+    },
+    {
+      "date": "12/27/2016 0:00",
+      "DIS": 102.72,
+      "earning_rate": 0,
+      "compound_earning": 2.669
+    },
+    {
+      "date": "12/28/2016 0:00",
+      "DIS": 101.87,
+      "earning_rate": 0,
+      "compound_earning": 2.669
+    },
+    {
+      "date": "12/29/2016 0:00",
+      "DIS": 102.13,
+      "earning_rate": 0.002,
+      "compound_earning": 2.675
+    },
+    {
+      "date": "12/30/2016 0:00",
+      "DIS": 101.8,
+      "earning_rate": 0,
+      "compound_earning": 2.675
+    },
+    {
+      "date": "1/3/2017 0:00",
+      "DIS": 103.61,
+      "earning_rate": 0.013,
+      "compound_earning": 2.71
+    },
+    {
+      "date": "1/4/2017 0:00",
+      "DIS": 104.94,
+      "earning_rate": 0.01,
+      "compound_earning": 2.736
+    },
+    {
+      "date": "1/5/2017 0:00",
+      "DIS": 104.88,
+      "earning_rate": 0,
+      "compound_earning": 2.736
+    },
+    {
+      "date": "1/6/2017 0:00",
+      "DIS": 106.45,
+      "earning_rate": 0.011,
+      "compound_earning": 2.767
+    },
+    {
+      "date": "1/9/2017 0:00",
+      "DIS": 105.84,
+      "earning_rate": 0,
+      "compound_earning": 2.767
+    },
+    {
+      "date": "1/10/2017 0:00",
+      "DIS": 105.86,
+      "earning_rate": 0,
+      "compound_earning": 2.767
+    },
+    {
+      "date": "1/11/2017 0:00",
+      "DIS": 106.89,
+      "earning_rate": 0.007,
+      "compound_earning": 2.788
+    },
+    {
+      "date": "1/12/2017 0:00",
+      "DIS": 105.03,
+      "earning_rate": 0,
+      "compound_earning": 2.788
+    },
+    {
+      "date": "1/13/2017 0:00",
+      "DIS": 105.55,
+      "earning_rate": 0.004,
+      "compound_earning": 2.798
+    },
+    {
+      "date": "1/17/2017 0:00",
+      "DIS": 105.46,
+      "earning_rate": 0,
+      "compound_earning": 2.798
+    },
+    {
+      "date": "1/18/2017 0:00",
+      "DIS": 105.64,
+      "earning_rate": 0.001,
+      "compound_earning": 2.802
+    },
+    {
+      "date": "1/19/2017 0:00",
+      "DIS": 104.79,
+      "earning_rate": 0,
+      "compound_earning": 2.802
+    },
+    {
+      "date": "1/20/2017 0:00",
+      "DIS": 105.16,
+      "earning_rate": 0.003,
+      "compound_earning": 2.809
+    },
+    {
+      "date": "1/23/2017 0:00",
+      "DIS": 104.63,
+      "earning_rate": 0,
+      "compound_earning": 2.809
+    },
+    {
+      "date": "1/24/2017 0:00",
+      "DIS": 105.39,
+      "earning_rate": 0.005,
+      "compound_earning": 2.824
+    },
+    {
+      "date": "1/25/2017 0:00",
+      "DIS": 105.53,
+      "earning_rate": 0.001,
+      "compound_earning": 2.827
+    },
+    {
+      "date": "1/26/2017 0:00",
+      "DIS": 105.55,
+      "earning_rate": 0,
+      "compound_earning": 2.828
+    },
+    {
+      "date": "1/27/2017 0:00",
+      "DIS": 106.76,
+      "earning_rate": 0.009,
+      "compound_earning": 2.852
+    },
+    {
+      "date": "1/30/2017 0:00",
+      "DIS": 108.36,
+      "earning_rate": 0.011,
+      "compound_earning": 2.884
+    },
+    {
+      "date": "1/31/2017 0:00",
+      "DIS": 108.08,
+      "earning_rate": 0,
+      "compound_earning": 2.884
+    },
+    {
+      "date": "2/1/2017 0:00",
+      "DIS": 108.71,
+      "earning_rate": 0.004,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/2/2017 0:00",
+      "DIS": 108.04,
+      "earning_rate": 0,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/3/2017 0:00",
+      "DIS": 107.73,
+      "earning_rate": 0,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/6/2017 0:00",
+      "DIS": 107.02,
+      "earning_rate": 0,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/7/2017 0:00",
+      "DIS": 106.47,
+      "earning_rate": 0,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/8/2017 0:00",
+      "DIS": 106.47,
+      "earning_rate": 0,
+      "compound_earning": 2.896
+    },
+    {
+      "date": "2/9/2017 0:00",
+      "DIS": 106.94,
+      "earning_rate": 0.003,
+      "compound_earning": 2.906
+    },
+    {
+      "date": "2/10/2017 0:00",
+      "DIS": 106.72,
+      "earning_rate": 0,
+      "compound_earning": 2.906
+    },
+    {
+      "date": "2/13/2017 0:00",
+      "DIS": 107.1,
+      "earning_rate": 0.003,
+      "compound_earning": 2.914
+    },
+    {
+      "date": "2/14/2017 0:00",
+      "DIS": 107.76,
+      "earning_rate": 0.005,
+      "compound_earning": 2.927
+    },
+    {
+      "date": "2/15/2017 0:00",
+      "DIS": 107.62,
+      "earning_rate": 0,
+      "compound_earning": 2.927
+    },
+    {
+      "date": "2/16/2017 0:00",
+      "DIS": 108.14,
+      "earning_rate": 0.004,
+      "compound_earning": 2.938
+    },
+    {
+      "date": "2/17/2017 0:00",
+      "DIS": 107.5,
+      "earning_rate": 0,
+      "compound_earning": 2.938
+    },
+    {
+      "date": "2/21/2017 0:00",
+      "DIS": 107.45,
+      "earning_rate": 0,
+      "compound_earning": 2.938
+    },
+    {
+      "date": "2/22/2017 0:00",
+      "DIS": 107.56,
+      "earning_rate": 0.001,
+      "compound_earning": 2.94
+    },
+    {
+      "date": "2/23/2017 0:00",
+      "DIS": 107.18,
+      "earning_rate": 0,
+      "compound_earning": 2.94
+    },
+    {
+      "date": "2/24/2017 0:00",
+      "DIS": 107.75,
+      "earning_rate": 0.004,
+      "compound_earning": 2.952
+    },
+    {
+      "date": "2/27/2017 0:00",
+      "DIS": 107.67,
+      "earning_rate": 0,
+      "compound_earning": 2.952
+    },
+    {
+      "date": "2/28/2017 0:00",
+      "DIS": 107.53,
+      "earning_rate": 0,
+      "compound_earning": 2.952
+    },
+    {
+      "date": "3/1/2017 0:00",
+      "DIS": 108.46,
+      "earning_rate": 0.006,
+      "compound_earning": 2.971
+    },
+    {
+      "date": "3/2/2017 0:00",
+      "DIS": 108.02,
+      "earning_rate": 0,
+      "compound_earning": 2.971
+    },
+    {
+      "date": "3/3/2017 0:00",
+      "DIS": 108.65,
+      "earning_rate": 0.004,
+      "compound_earning": 2.984
+    },
+    {
+      "date": "3/6/2017 0:00",
+      "DIS": 108.1,
+      "earning_rate": 0,
+      "compound_earning": 2.984
+    },
+    {
+      "date": "3/7/2017 0:00",
+      "DIS": 108.28,
+      "earning_rate": 0.001,
+      "compound_earning": 2.988
+    },
+    {
+      "date": "3/8/2017 0:00",
+      "DIS": 108.26,
+      "earning_rate": 0,
+      "compound_earning": 2.988
+    },
+    {
+      "date": "3/9/2017 0:00",
+      "DIS": 108.45,
+      "earning_rate": 0.001,
+      "compound_earning": 2.992
+    },
+    {
+      "date": "3/10/2017 0:00",
+      "DIS": 108.34,
+      "earning_rate": 0,
+      "compound_earning": 2.992
+    },
+    {
+      "date": "3/13/2017 0:00",
+      "DIS": 108.93,
+      "earning_rate": 0.004,
+      "compound_earning": 3.004
+    },
+    {
+      "date": "3/14/2017 0:00",
+      "DIS": 109.7,
+      "earning_rate": 0.005,
+      "compound_earning": 3.02
+    },
+    {
+      "date": "3/15/2017 0:00",
+      "DIS": 109.27,
+      "earning_rate": 0,
+      "compound_earning": 3.02
+    },
+    {
+      "date": "3/16/2017 0:00",
+      "DIS": 109.11,
+      "earning_rate": 0,
+      "compound_earning": 3.02
+    },
+    {
+      "date": "3/17/2017 0:00",
+      "DIS": 109.16,
+      "earning_rate": 0,
+      "compound_earning": 3.021
+    },
+    {
+      "date": "3/20/2017 0:00",
+      "DIS": 110.09,
+      "earning_rate": 0.006,
+      "compound_earning": 3.04
+    },
+    {
+      "date": "3/21/2017 0:00",
+      "DIS": 109.15,
+      "earning_rate": 0,
+      "compound_earning": 3.04
+    },
+    {
+      "date": "3/22/2017 0:00",
+      "DIS": 109.47,
+      "earning_rate": 0.002,
+      "compound_earning": 3.047
+    },
+    {
+      "date": "3/23/2017 0:00",
+      "DIS": 109.63,
+      "earning_rate": 0.001,
+      "compound_earning": 3.05
+    },
+    {
+      "date": "3/24/2017 0:00",
+      "DIS": 109.53,
+      "earning_rate": 0,
+      "compound_earning": 3.05
+    },
+    {
+      "date": "3/27/2017 0:00",
+      "DIS": 109.77,
+      "earning_rate": 0.002,
+      "compound_earning": 3.055
+    },
+    {
+      "date": "3/28/2017 0:00",
+      "DIS": 110.42,
+      "earning_rate": 0.004,
+      "compound_earning": 3.069
+    },
+    {
+      "date": "3/29/2017 0:00",
+      "DIS": 109.91,
+      "earning_rate": 0,
+      "compound_earning": 3.069
+    },
+    {
+      "date": "3/30/2017 0:00",
+      "DIS": 110.55,
+      "earning_rate": 0.004,
+      "compound_earning": 3.082
+    },
+    {
+      "date": "3/31/2017 0:00",
+      "DIS": 110.75,
+      "earning_rate": 0.001,
+      "compound_earning": 3.086
+    },
+    {
+      "date": "4/3/2017 0:00",
+      "DIS": 110.57,
+      "earning_rate": 0,
+      "compound_earning": 3.086
+    },
+    {
+      "date": "4/4/2017 0:00",
+      "DIS": 110.41,
+      "earning_rate": 0,
+      "compound_earning": 3.086
+    },
+    {
+      "date": "4/5/2017 0:00",
+      "DIS": 110.37,
+      "earning_rate": 0,
+      "compound_earning": 3.086
+    },
+    {
+      "date": "4/6/2017 0:00",
+      "DIS": 110.42,
+      "earning_rate": 0,
+      "compound_earning": 3.087
+    },
+    {
+      "date": "4/7/2017 0:00",
+      "DIS": 109.96,
+      "earning_rate": 0,
+      "compound_earning": 3.087
+    },
+    {
+      "date": "4/10/2017 0:00",
+      "DIS": 109.82,
+      "earning_rate": 0,
+      "compound_earning": 3.087
+    },
+    {
+      "date": "4/11/2017 0:00",
+      "DIS": 110.44,
+      "earning_rate": 0.004,
+      "compound_earning": 3.1
+    },
+    {
+      "date": "4/12/2017 0:00",
+      "DIS": 110.41,
+      "earning_rate": 0,
+      "compound_earning": 3.1
+    },
+    {
+      "date": "4/13/2017 0:00",
+      "DIS": 110.57,
+      "earning_rate": 0.001,
+      "compound_earning": 3.104
+    },
+    {
+      "date": "4/17/2017 0:00",
+      "DIS": 111.13,
+      "earning_rate": 0.004,
+      "compound_earning": 3.116
+    },
+    {
+      "date": "4/18/2017 0:00",
+      "DIS": 111.53,
+      "earning_rate": 0.003,
+      "compound_earning": 3.124
+    },
+    {
+      "date": "4/19/2017 0:00",
+      "DIS": 111.09,
+      "earning_rate": 0,
+      "compound_earning": 3.124
+    },
+    {
+      "date": "4/20/2017 0:00",
+      "DIS": 112.12,
+      "earning_rate": 0.007,
+      "compound_earning": 3.146
+    },
+    {
+      "date": "4/21/2017 0:00",
+      "DIS": 111.78,
+      "earning_rate": 0,
+      "compound_earning": 3.146
+    },
+    {
+      "date": "4/24/2017 0:00",
+      "DIS": 111.06,
+      "earning_rate": 0,
+      "compound_earning": 3.146
+    },
+    {
+      "date": "4/25/2017 0:00",
+      "DIS": 112.5,
+      "earning_rate": 0.01,
+      "compound_earning": 3.176
+    },
+    {
+      "date": "4/26/2017 0:00",
+      "DIS": 112.89,
+      "earning_rate": 0.003,
+      "compound_earning": 3.185
+    },
+    {
+      "date": "4/27/2017 0:00",
+      "DIS": 113.15,
+      "earning_rate": 0.002,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "4/28/2017 0:00",
+      "DIS": 112.91,
+      "earning_rate": 0,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "5/1/2017 0:00",
+      "DIS": 112.06,
+      "earning_rate": 0,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "5/2/2017 0:00",
+      "DIS": 111.71,
+      "earning_rate": 0,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "5/3/2017 0:00",
+      "DIS": 109.02,
+      "earning_rate": 0,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "5/4/2017 0:00",
+      "DIS": 108.58,
+      "earning_rate": 0,
+      "compound_earning": 3.19
+    },
+    {
+      "date": "5/5/2017 0:00",
+      "DIS": 109.39,
+      "earning_rate": 0.006,
+      "compound_earning": 3.208
+    },
+    {
+      "date": "5/8/2017 0:00",
+      "DIS": 108.83,
+      "earning_rate": 0,
+      "compound_earning": 3.208
+    },
+    {
+      "date": "5/9/2017 0:00",
+      "DIS": 109.46,
+      "earning_rate": 0.004,
+      "compound_earning": 3.222
+    },
+    {
+      "date": "5/10/2017 0:00",
+      "DIS": 107.11,
+      "earning_rate": 0,
+      "compound_earning": 3.222
+    },
+    {
+      "date": "5/11/2017 0:00",
+      "DIS": 107.03,
+      "earning_rate": 0,
+      "compound_earning": 3.222
+    },
+    {
+      "date": "5/12/2017 0:00",
+      "DIS": 107.14,
+      "earning_rate": 0.001,
+      "compound_earning": 3.224
+    },
+    {
+      "date": "5/15/2017 0:00",
+      "DIS": 106.59,
+      "earning_rate": 0,
+      "compound_earning": 3.224
+    },
+    {
+      "date": "5/16/2017 0:00",
+      "DIS": 105.47,
+      "earning_rate": 0,
+      "compound_earning": 3.224
+    },
+    {
+      "date": "5/17/2017 0:00",
+      "DIS": 103.84,
+      "earning_rate": 0,
+      "compound_earning": 3.224
+    },
+    {
+      "date": "5/18/2017 0:00",
+      "DIS": 104.2,
+      "earning_rate": 0.003,
+      "compound_earning": 3.233
+    },
+    {
+      "date": "5/19/2017 0:00",
+      "DIS": 105.02,
+      "earning_rate": 0.006,
+      "compound_earning": 3.252
+    },
+    {
+      "date": "5/22/2017 0:00",
+      "DIS": 105.13,
+      "earning_rate": 0.001,
+      "compound_earning": 3.254
+    },
+    {
+      "date": "5/23/2017 0:00",
+      "DIS": 104.53,
+      "earning_rate": 0,
+      "compound_earning": 3.254
+    },
+    {
+      "date": "5/24/2017 0:00",
+      "DIS": 105.21,
+      "earning_rate": 0.005,
+      "compound_earning": 3.27
+    },
+    {
+      "date": "5/25/2017 0:00",
+      "DIS": 104.78,
+      "earning_rate": 0,
+      "compound_earning": 3.27
+    },
+    {
+      "date": "5/26/2017 0:00",
+      "DIS": 105.89,
+      "earning_rate": 0.008,
+      "compound_earning": 3.296
+    },
+    {
+      "date": "5/30/2017 0:00",
+      "DIS": 105.82,
+      "earning_rate": 0,
+      "compound_earning": 3.296
+    },
+    {
+      "date": "5/31/2017 0:00",
+      "DIS": 105.43,
+      "earning_rate": 0,
+      "compound_earning": 3.296
+    },
+    {
+      "date": "6/1/2017 0:00",
+      "DIS": 105.69,
+      "earning_rate": 0.002,
+      "compound_earning": 3.302
+    },
+    {
+      "date": "6/2/2017 0:00",
+      "DIS": 104.69,
+      "earning_rate": 0,
+      "compound_earning": 3.302
+    },
+    {
+      "date": "6/5/2017 0:00",
+      "DIS": 104.04,
+      "earning_rate": 0,
+      "compound_earning": 3.302
+    },
+    {
+      "date": "6/6/2017 0:00",
+      "DIS": 103.05,
+      "earning_rate": 0,
+      "compound_earning": 3.302
+    },
+    {
+      "date": "6/7/2017 0:00",
+      "DIS": 103.46,
+      "earning_rate": 0.003,
+      "compound_earning": 3.312
+    },
+    {
+      "date": "6/8/2017 0:00",
+      "DIS": 101.89,
+      "earning_rate": 0,
+      "compound_earning": 3.312
+    },
+    {
+      "date": "6/9/2017 0:00",
+      "DIS": 103.16,
+      "earning_rate": 0.009,
+      "compound_earning": 3.343
+    },
+    {
+      "date": "6/12/2017 0:00",
+      "DIS": 104.55,
+      "earning_rate": 0.01,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/13/2017 0:00",
+      "DIS": 104.08,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/14/2017 0:00",
+      "DIS": 103.67,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/15/2017 0:00",
+      "DIS": 103.52,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/16/2017 0:00",
+      "DIS": 103.06,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/19/2017 0:00",
+      "DIS": 102.92,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/20/2017 0:00",
+      "DIS": 101.52,
+      "earning_rate": 0,
+      "compound_earning": 3.377
+    },
+    {
+      "date": "6/21/2017 0:00",
+      "DIS": 102.36,
+      "earning_rate": 0.006,
+      "compound_earning": 3.398
+    },
+    {
+      "date": "6/22/2017 0:00",
+      "DIS": 101.8,
+      "earning_rate": 0,
+      "compound_earning": 3.398
+    },
+    {
+      "date": "6/23/2017 0:00",
+      "DIS": 101.93,
+      "earning_rate": 0.001,
+      "compound_earning": 3.401
+    },
+    {
+      "date": "6/26/2017 0:00",
+      "DIS": 103.11,
+      "earning_rate": 0.009,
+      "compound_earning": 3.431
+    },
+    {
+      "date": "6/27/2017 0:00",
+      "DIS": 102.96,
+      "earning_rate": 0,
+      "compound_earning": 3.431
+    },
+    {
+      "date": "6/28/2017 0:00",
+      "DIS": 104.37,
+      "earning_rate": 0.01,
+      "compound_earning": 3.466
+    },
+    {
+      "date": "6/29/2017 0:00",
+      "DIS": 103.25,
+      "earning_rate": 0,
+      "compound_earning": 3.466
+    },
+    {
+      "date": "6/30/2017 0:00",
+      "DIS": 103.78,
+      "earning_rate": 0.004,
+      "compound_earning": 3.479
+    },
+    {
+      "date": "7/3/2017 0:00",
+      "DIS": 104.96,
+      "earning_rate": 0.009,
+      "compound_earning": 3.509
+    },
+    {
+      "date": "7/5/2017 0:00",
+      "DIS": 103.17,
+      "earning_rate": 0,
+      "compound_earning": 3.509
+    },
+    {
+      "date": "7/6/2017 0:00",
+      "DIS": 101.71,
+      "earning_rate": 0,
+      "compound_earning": 3.509
+    },
+    {
+      "date": "7/7/2017 0:00",
+      "DIS": 101.68,
+      "earning_rate": 0,
+      "compound_earning": 3.509
+    },
+    {
+      "date": "7/10/2017 0:00",
+      "DIS": 101.94,
+      "earning_rate": 0.002,
+      "compound_earning": 3.516
+    },
+    {
+      "date": "7/11/2017 0:00",
+      "DIS": 102.19,
+      "earning_rate": 0.002,
+      "compound_earning": 3.522
+    },
+    {
+      "date": "7/12/2017 0:00",
+      "DIS": 102.72,
+      "earning_rate": 0.004,
+      "compound_earning": 3.536
+    },
+    {
+      "date": "7/13/2017 0:00",
+      "DIS": 102.63,
+      "earning_rate": 0,
+      "compound_earning": 3.536
+    },
+    {
+      "date": "7/14/2017 0:00",
+      "DIS": 103.42,
+      "earning_rate": 0.006,
+      "compound_earning": 3.556
+    },
+    {
+      "date": "7/17/2017 0:00",
+      "DIS": 103.13,
+      "earning_rate": 0,
+      "compound_earning": 3.556
+    },
+    {
+      "date": "7/18/2017 0:00",
+      "DIS": 104.07,
+      "earning_rate": 0.007,
+      "compound_earning": 3.581
+    },
+    {
+      "date": "7/19/2017 0:00",
+      "DIS": 105.12,
+      "earning_rate": 0.008,
+      "compound_earning": 3.608
+    },
+    {
+      "date": "7/20/2017 0:00",
+      "DIS": 105.65,
+      "earning_rate": 0.004,
+      "compound_earning": 3.621
+    },
+    {
+      "date": "7/21/2017 0:00",
+      "DIS": 105.39,
+      "earning_rate": 0,
+      "compound_earning": 3.621
+    },
+    {
+      "date": "7/24/2017 0:00",
+      "DIS": 105.3,
+      "earning_rate": 0,
+      "compound_earning": 3.621
+    },
+    {
+      "date": "7/25/2017 0:00",
+      "DIS": 104.73,
+      "earning_rate": 0,
+      "compound_earning": 3.621
+    },
+    {
+      "date": "7/26/2017 0:00",
+      "DIS": 105.24,
+      "earning_rate": 0.004,
+      "compound_earning": 3.635
+    },
+    {
+      "date": "7/27/2017 0:00",
+      "DIS": 108.25,
+      "earning_rate": 0.021,
+      "compound_earning": 3.713
+    },
+    {
+      "date": "7/28/2017 0:00",
+      "DIS": 108.21,
+      "earning_rate": 0,
+      "compound_earning": 3.713
+    },
+    {
+      "date": "7/31/2017 0:00",
+      "DIS": 108.18,
+      "earning_rate": 0,
+      "compound_earning": 3.713
+    },
+    {
+      "date": "8/1/2017 0:00",
+      "DIS": 108.85,
+      "earning_rate": 0.005,
+      "compound_earning": 3.73
+    },
+    {
+      "date": "8/2/2017 0:00",
+      "DIS": 106.94,
+      "earning_rate": 0,
+      "compound_earning": 3.73
+    },
+    {
+      "date": "8/3/2017 0:00",
+      "DIS": 107.39,
+      "earning_rate": 0.003,
+      "compound_earning": 3.742
+    },
+    {
+      "date": "8/4/2017 0:00",
+      "DIS": 105.98,
+      "earning_rate": 0,
+      "compound_earning": 3.742
+    },
+    {
+      "date": "8/7/2017 0:00",
+      "DIS": 104.66,
+      "earning_rate": 0,
+      "compound_earning": 3.742
+    },
+    {
+      "date": "8/8/2017 0:00",
+      "DIS": 105.28,
+      "earning_rate": 0.004,
+      "compound_earning": 3.758
+    },
+    {
+      "date": "8/9/2017 0:00",
+      "DIS": 101.2,
+      "earning_rate": 0,
+      "compound_earning": 3.758
+    },
+    {
+      "date": "8/10/2017 0:00",
+      "DIS": 99.74,
+      "earning_rate": 0,
+      "compound_earning": 3.758
+    },
+    {
+      "date": "8/11/2017 0:00",
+      "DIS": 100.37,
+      "earning_rate": 0.005,
+      "compound_earning": 3.776
+    },
+    {
+      "date": "8/14/2017 0:00",
+      "DIS": 99.79,
+      "earning_rate": 0,
+      "compound_earning": 3.776
+    },
+    {
+      "date": "8/15/2017 0:00",
+      "DIS": 99.9,
+      "earning_rate": 0.001,
+      "compound_earning": 3.779
+    },
+    {
+      "date": "8/16/2017 0:00",
+      "DIS": 100.58,
+      "earning_rate": 0.005,
+      "compound_earning": 3.798
+    },
+    {
+      "date": "8/17/2017 0:00",
+      "DIS": 99.77,
+      "earning_rate": 0,
+      "compound_earning": 3.798
+    },
+    {
+      "date": "8/18/2017 0:00",
+      "DIS": 99.1,
+      "earning_rate": 0,
+      "compound_earning": 3.798
+    },
+    {
+      "date": "8/21/2017 0:00",
+      "DIS": 99.56,
+      "earning_rate": 0.003,
+      "compound_earning": 3.812
+    },
+    {
+      "date": "8/22/2017 0:00",
+      "DIS": 101.14,
+      "earning_rate": 0.012,
+      "compound_earning": 3.857
+    },
+    {
+      "date": "8/23/2017 0:00",
+      "DIS": 99.89,
+      "earning_rate": 0,
+      "compound_earning": 3.857
+    },
+    {
+      "date": "8/24/2017 0:00",
+      "DIS": 99.91,
+      "earning_rate": 0,
+      "compound_earning": 3.858
+    },
+    {
+      "date": "8/25/2017 0:00",
+      "DIS": 100.78,
+      "earning_rate": 0.007,
+      "compound_earning": 3.883
+    },
+    {
+      "date": "8/28/2017 0:00",
+      "DIS": 100.93,
+      "earning_rate": 0.001,
+      "compound_earning": 3.887
+    },
+    {
+      "date": "8/29/2017 0:00",
+      "DIS": 100.94,
+      "earning_rate": 0,
+      "compound_earning": 3.887
+    },
+    {
+      "date": "8/30/2017 0:00",
+      "DIS": 101.24,
+      "earning_rate": 0.002,
+      "compound_earning": 3.896
+    },
+    {
+      "date": "8/31/2017 0:00",
+      "DIS": 99.59,
+      "earning_rate": 0,
+      "compound_earning": 3.896
+    },
+    {
+      "date": "9/1/2017 0:00",
+      "DIS": 99.89,
+      "earning_rate": 0.002,
+      "compound_earning": 3.905
+    },
+    {
+      "date": "9/5/2017 0:00",
+      "DIS": 99.99,
+      "earning_rate": 0.001,
+      "compound_earning": 3.908
+    },
+    {
+      "date": "9/6/2017 0:00",
+      "DIS": 99.89,
+      "earning_rate": 0,
+      "compound_earning": 3.908
+    },
+    {
+      "date": "9/7/2017 0:00",
+      "DIS": 95.52,
+      "earning_rate": 0,
+      "compound_earning": 3.908
+    },
+    {
+      "date": "9/8/2017 0:00",
+      "DIS": 95.53,
+      "earning_rate": 0,
+      "compound_earning": 3.908
+    },
+    {
+      "date": "9/11/2017 0:00",
+      "DIS": 95.55,
+      "earning_rate": 0,
+      "compound_earning": 3.909
+    },
+    {
+      "date": "9/12/2017 0:00",
+      "DIS": 96.34,
+      "earning_rate": 0.006,
+      "compound_earning": 3.933
+    },
+    {
+      "date": "9/13/2017 0:00",
+      "DIS": 97.25,
+      "earning_rate": 0.007,
+      "compound_earning": 3.961
+    },
+    {
+      "date": "9/14/2017 0:00",
+      "DIS": 96.34,
+      "earning_rate": 0,
+      "compound_earning": 3.961
+    },
+    {
+      "date": "9/15/2017 0:00",
+      "DIS": 96.96,
+      "earning_rate": 0.005,
+      "compound_earning": 3.98
+    },
+    {
+      "date": "9/18/2017 0:00",
+      "DIS": 96.54,
+      "earning_rate": 0,
+      "compound_earning": 3.98
+    },
+    {
+      "date": "9/19/2017 0:00",
+      "DIS": 96.87,
+      "earning_rate": 0.003,
+      "compound_earning": 3.99
+    },
+    {
+      "date": "9/20/2017 0:00",
+      "DIS": 97.63,
+      "earning_rate": 0.006,
+      "compound_earning": 4.014
+    },
+    {
+      "date": "9/21/2017 0:00",
+      "DIS": 97.32,
+      "earning_rate": 0,
+      "compound_earning": 4.014
+    },
+    {
+      "date": "9/22/2017 0:00",
+      "DIS": 97.03,
+      "earning_rate": 0,
+      "compound_earning": 4.014
+    },
+    {
+      "date": "9/25/2017 0:00",
+      "DIS": 97.99,
+      "earning_rate": 0.007,
+      "compound_earning": 4.043
+    },
+    {
+      "date": "9/26/2017 0:00",
+      "DIS": 97.06,
+      "earning_rate": 0,
+      "compound_earning": 4.043
+    },
+    {
+      "date": "9/27/2017 0:00",
+      "DIS": 97.66,
+      "earning_rate": 0.005,
+      "compound_earning": 4.062
+    },
+    {
+      "date": "9/28/2017 0:00",
+      "DIS": 96.49,
+      "earning_rate": 0,
+      "compound_earning": 4.062
+    },
+    {
+      "date": "9/29/2017 0:00",
+      "DIS": 97,
+      "earning_rate": 0.004,
+      "compound_earning": 4.078
+    },
+    {
+      "date": "10/2/2017 0:00",
+      "DIS": 98.27,
+      "earning_rate": 0.01,
+      "compound_earning": 4.118
+    },
+    {
+      "date": "10/3/2017 0:00",
+      "DIS": 99.19,
+      "earning_rate": 0.007,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/4/2017 0:00",
+      "DIS": 98.95,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/5/2017 0:00",
+      "DIS": 98.52,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/6/2017 0:00",
+      "DIS": 98.48,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/9/2017 0:00",
+      "DIS": 97.99,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/10/2017 0:00",
+      "DIS": 98,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/11/2017 0:00",
+      "DIS": 96.98,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/12/2017 0:00",
+      "DIS": 95.39,
+      "earning_rate": 0,
+      "compound_earning": 4.147
+    },
+    {
+      "date": "10/13/2017 0:00",
+      "DIS": 95.83,
+      "earning_rate": 0.003,
+      "compound_earning": 4.162
+    },
+    {
+      "date": "10/16/2017 0:00",
+      "DIS": 96.57,
+      "earning_rate": 0.006,
+      "compound_earning": 4.186
+    },
+    {
+      "date": "10/17/2017 0:00",
+      "DIS": 96.8,
+      "earning_rate": 0.002,
+      "compound_earning": 4.193
+    },
+    {
+      "date": "10/18/2017 0:00",
+      "DIS": 96.69,
+      "earning_rate": 0,
+      "compound_earning": 4.193
+    },
+    {
+      "date": "10/19/2017 0:00",
+      "DIS": 97.44,
+      "earning_rate": 0.006,
+      "compound_earning": 4.218
+    },
+    {
+      "date": "10/20/2017 0:00",
+      "DIS": 97.82,
+      "earning_rate": 0.003,
+      "compound_earning": 4.23
+    },
+    {
+      "date": "10/23/2017 0:00",
+      "DIS": 97.13,
+      "earning_rate": 0,
+      "compound_earning": 4.23
+    },
+    {
+      "date": "10/24/2017 0:00",
+      "DIS": 96.73,
+      "earning_rate": 0,
+      "compound_earning": 4.23
+    },
+    {
+      "date": "10/25/2017 0:00",
+      "DIS": 96.23,
+      "earning_rate": 0,
+      "compound_earning": 4.23
+    },
+    {
+      "date": "10/26/2017 0:00",
+      "DIS": 96.99,
+      "earning_rate": 0.006,
+      "compound_earning": 4.255
+    },
+    {
+      "date": "10/27/2017 0:00",
+      "DIS": 96.75,
+      "earning_rate": 0,
+      "compound_earning": 4.255
+    },
+    {
+      "date": "10/30/2017 0:00",
+      "DIS": 96.48,
+      "earning_rate": 0,
+      "compound_earning": 4.255
+    },
+    {
+      "date": "10/31/2017 0:00",
+      "DIS": 96.26,
+      "earning_rate": 0,
+      "compound_earning": 4.255
+    },
+    {
+      "date": "11/1/2017 0:00",
+      "DIS": 97.46,
+      "earning_rate": 0.009,
+      "compound_earning": 4.295
+    },
+    {
+      "date": "11/2/2017 0:00",
+      "DIS": 96.79,
+      "earning_rate": 0,
+      "compound_earning": 4.295
+    },
+    {
+      "date": "11/3/2017 0:00",
+      "DIS": 97.07,
+      "earning_rate": 0.002,
+      "compound_earning": 4.304
+    },
+    {
+      "date": "11/6/2017 0:00",
+      "DIS": 99.04,
+      "earning_rate": 0.015,
+      "compound_earning": 4.37
+    },
+    {
+      "date": "11/7/2017 0:00",
+      "DIS": 100,
+      "earning_rate": 0.007,
+      "compound_earning": 4.402
+    },
+    {
+      "date": "11/8/2017 0:00",
+      "DIS": 99.57,
+      "earning_rate": 0,
+      "compound_earning": 4.402
+    },
+    {
+      "date": "11/9/2017 0:00",
+      "DIS": 101.05,
+      "earning_rate": 0.011,
+      "compound_earning": 4.451
+    },
+    {
+      "date": "11/10/2017 0:00",
+      "DIS": 103.12,
+      "earning_rate": 0.015,
+      "compound_earning": 4.519
+    },
+    {
+      "date": "11/13/2017 0:00",
+      "DIS": 103.08,
+      "earning_rate": 0,
+      "compound_earning": 4.519
+    },
+    {
+      "date": "11/14/2017 0:00",
+      "DIS": 101.53,
+      "earning_rate": 0,
+      "compound_earning": 4.519
+    },
+    {
+      "date": "11/15/2017 0:00",
+      "DIS": 102.04,
+      "earning_rate": 0.004,
+      "compound_earning": 4.536
+    },
+    {
+      "date": "11/16/2017 0:00",
+      "DIS": 101.95,
+      "earning_rate": 0,
+      "compound_earning": 4.536
+    },
+    {
+      "date": "11/17/2017 0:00",
+      "DIS": 101.8,
+      "earning_rate": 0,
+      "compound_earning": 4.536
+    },
+    {
+      "date": "11/20/2017 0:00",
+      "DIS": 101.12,
+      "earning_rate": 0,
+      "compound_earning": 4.536
+    },
+    {
+      "date": "11/21/2017 0:00",
+      "DIS": 101.36,
+      "earning_rate": 0.002,
+      "compound_earning": 4.544
+    },
+    {
+      "date": "11/22/2017 0:00",
+      "DIS": 101.11,
+      "earning_rate": 0,
+      "compound_earning": 4.544
+    },
+    {
+      "date": "11/24/2017 0:00",
+      "DIS": 101.01,
+      "earning_rate": 0,
+      "compound_earning": 4.544
+    },
+    {
+      "date": "11/27/2017 0:00",
+      "DIS": 101.16,
+      "earning_rate": 0.001,
+      "compound_earning": 4.549
+    },
+    {
+      "date": "11/28/2017 0:00",
+      "DIS": 101.77,
+      "earning_rate": 0.005,
+      "compound_earning": 4.57
+    },
+    {
+      "date": "11/29/2017 0:00",
+      "DIS": 103.57,
+      "earning_rate": 0.013,
+      "compound_earning": 4.63
+    },
+    {
+      "date": "11/30/2017 0:00",
+      "DIS": 103.16,
+      "earning_rate": 0,
+      "compound_earning": 4.63
+    },
+    {
+      "date": "12/1/2017 0:00",
+      "DIS": 103.58,
+      "earning_rate": 0.003,
+      "compound_earning": 4.645
+    },
+    {
+      "date": "12/4/2017 0:00",
+      "DIS": 108.47,
+      "earning_rate": 0.035,
+      "compound_earning": 4.809
+    },
+    {
+      "date": "12/5/2017 0:00",
+      "DIS": 105.52,
+      "earning_rate": 0,
+      "compound_earning": 4.809
+    },
+    {
+      "date": "12/6/2017 0:00",
+      "DIS": 103.78,
+      "earning_rate": 0,
+      "compound_earning": 4.809
+    },
+    {
+      "date": "12/7/2017 0:00",
+      "DIS": 103.59,
+      "earning_rate": 0,
+      "compound_earning": 4.809
+    },
+    {
+      "date": "12/8/2017 0:00",
+      "DIS": 103.4,
+      "earning_rate": 0,
+      "compound_earning": 4.809
+    },
+    {
+      "date": "12/11/2017 0:00",
+      "DIS": 105.98,
+      "earning_rate": 0.019,
+      "compound_earning": 4.899
+    },
+    {
+      "date": "12/12/2017 0:00",
+      "DIS": 106.58,
+      "earning_rate": 0.004,
+      "compound_earning": 4.92
+    },
+    {
+      "date": "12/13/2017 0:00",
+      "DIS": 106.75,
+      "earning_rate": 0.001,
+      "compound_earning": 4.926
+    },
+    {
+      "date": "12/14/2017 0:00",
+      "DIS": 109.69,
+      "earning_rate": 0.021,
+      "compound_earning": 5.027
+    },
+    {
+      "date": "12/15/2017 0:00",
+      "DIS": 110.39,
+      "earning_rate": 0.005,
+      "compound_earning": 5.051
+    },
+    {
+      "date": "12/18/2017 0:00",
+      "DIS": 110.15,
+      "earning_rate": 0,
+      "compound_earning": 5.051
+    },
+    {
+      "date": "12/19/2017 0:00",
+      "DIS": 110.92,
+      "earning_rate": 0.005,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/20/2017 0:00",
+      "DIS": 108.82,
+      "earning_rate": 0,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/21/2017 0:00",
+      "DIS": 108.7,
+      "earning_rate": 0,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/22/2017 0:00",
+      "DIS": 107.81,
+      "earning_rate": 0,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/26/2017 0:00",
+      "DIS": 107.26,
+      "earning_rate": 0,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/27/2017 0:00",
+      "DIS": 106.78,
+      "earning_rate": 0,
+      "compound_earning": 5.078
+    },
+    {
+      "date": "12/28/2017 0:00",
+      "DIS": 106.91,
+      "earning_rate": 0.001,
+      "compound_earning": 5.083
+    },
+    {
+      "date": "12/29/2017 0:00",
+      "DIS": 106.65,
+      "earning_rate": 0,
+      "compound_earning": 5.083
+    },
+    {
+      "date": "1/2/2018 0:00",
+      "DIS": 110.91,
+      "earning_rate": 0.03,
+      "compound_earning": 5.235
+    },
+    {
+      "date": "1/3/2018 0:00",
+      "DIS": 111.39,
+      "earning_rate": 0.003,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/4/2018 0:00",
+      "DIS": 111.34,
+      "earning_rate": 0,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/5/2018 0:00",
+      "DIS": 110.73,
+      "earning_rate": 0,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/8/2018 0:00",
+      "DIS": 109.15,
+      "earning_rate": 0,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/9/2018 0:00",
+      "DIS": 109.07,
+      "earning_rate": 0,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/10/2018 0:00",
+      "DIS": 108.6,
+      "earning_rate": 0,
+      "compound_earning": 5.252
+    },
+    {
+      "date": "1/11/2018 0:00",
+      "DIS": 110.11,
+      "earning_rate": 0.01,
+      "compound_earning": 5.307
+    },
+    {
+      "date": "1/12/2018 0:00",
+      "DIS": 111.58,
+      "earning_rate": 0.01,
+      "compound_earning": 5.36
+    },
+    {
+      "date": "1/16/2018 0:00",
+      "DIS": 109.81,
+      "earning_rate": 0,
+      "compound_earning": 5.36
+    },
+    {
+      "date": "1/17/2018 0:00",
+      "DIS": 111.08,
+      "earning_rate": 0.009,
+      "compound_earning": 5.406
+    },
+    {
+      "date": "1/18/2018 0:00",
+      "DIS": 109.54,
+      "earning_rate": 0,
+      "compound_earning": 5.406
+    },
+    {
+      "date": "1/19/2018 0:00",
+      "DIS": 109.71,
+      "earning_rate": 0.001,
+      "compound_earning": 5.413
+    },
+    {
+      "date": "1/22/2018 0:00",
+      "DIS": 110.22,
+      "earning_rate": 0.003,
+      "compound_earning": 5.431
+    },
+    {
+      "date": "1/23/2018 0:00",
+      "DIS": 109.53,
+      "earning_rate": 0,
+      "compound_earning": 5.431
+    },
+    {
+      "date": "1/24/2018 0:00",
+      "DIS": 109.62,
+      "earning_rate": 0.001,
+      "compound_earning": 5.435
+    },
+    {
+      "date": "1/25/2018 0:00",
+      "DIS": 109.67,
+      "earning_rate": 0,
+      "compound_earning": 5.437
+    },
+    {
+      "date": "1/26/2018 0:00",
+      "DIS": 111.3,
+      "earning_rate": 0.011,
+      "compound_earning": 5.497
+    },
+    {
+      "date": "1/29/2018 0:00",
+      "DIS": 110.65,
+      "earning_rate": 0,
+      "compound_earning": 5.497
+    },
+    {
+      "date": "1/30/2018 0:00",
+      "DIS": 109.23,
+      "earning_rate": 0,
+      "compound_earning": 5.497
+    },
+    {
+      "date": "1/31/2018 0:00",
+      "DIS": 107.81,
+      "earning_rate": 0,
+      "compound_earning": 5.497
+    },
+    {
+      "date": "2/1/2018 0:00",
+      "DIS": 109.61,
+      "earning_rate": 0.013,
+      "compound_earning": 5.566
+    },
+    {
+      "date": "2/2/2018 0:00",
+      "DIS": 107.84,
+      "earning_rate": 0,
+      "compound_earning": 5.566
+    },
+    {
+      "date": "2/5/2018 0:00",
+      "DIS": 103.87,
+      "earning_rate": 0,
+      "compound_earning": 5.566
+    },
+    {
+      "date": "2/6/2018 0:00",
+      "DIS": 105.33,
+      "earning_rate": 0.011,
+      "compound_earning": 5.625
+    },
+    {
+      "date": "2/7/2018 0:00",
+      "DIS": 103.93,
+      "earning_rate": 0,
+      "compound_earning": 5.625
+    },
+    {
+      "date": "2/8/2018 0:00",
+      "DIS": 100.54,
+      "earning_rate": 0,
+      "compound_earning": 5.625
+    },
+    {
+      "date": "2/9/2018 0:00",
+      "DIS": 102.27,
+      "earning_rate": 0.013,
+      "compound_earning": 5.697
+    },
+    {
+      "date": "2/12/2018 0:00",
+      "DIS": 102.57,
+      "earning_rate": 0.002,
+      "compound_earning": 5.71
+    },
+    {
+      "date": "2/13/2018 0:00",
+      "DIS": 103.29,
+      "earning_rate": 0.005,
+      "compound_earning": 5.74
+    },
+    {
+      "date": "2/14/2018 0:00",
+      "DIS": 103.77,
+      "earning_rate": 0.003,
+      "compound_earning": 5.76
+    },
+    {
+      "date": "2/15/2018 0:00",
+      "DIS": 104.34,
+      "earning_rate": 0.004,
+      "compound_earning": 5.784
+    },
+    {
+      "date": "2/16/2018 0:00",
+      "DIS": 105.68,
+      "earning_rate": 0.01,
+      "compound_earning": 5.839
+    },
+    {
+      "date": "2/20/2018 0:00",
+      "DIS": 105.14,
+      "earning_rate": 0,
+      "compound_earning": 5.839
+    },
+    {
+      "date": "2/21/2018 0:00",
+      "DIS": 104.21,
+      "earning_rate": 0,
+      "compound_earning": 5.839
+    },
+    {
+      "date": "2/22/2018 0:00",
+      "DIS": 104.4,
+      "earning_rate": 0.001,
+      "compound_earning": 5.847
+    },
+    {
+      "date": "2/23/2018 0:00",
+      "DIS": 106.4,
+      "earning_rate": 0.014,
+      "compound_earning": 5.931
+    },
+    {
+      "date": "2/26/2018 0:00",
+      "DIS": 108.94,
+      "earning_rate": 0.018,
+      "compound_earning": 6.038
+    },
+    {
+      "date": "2/27/2018 0:00",
+      "DIS": 104.04,
+      "earning_rate": 0,
+      "compound_earning": 6.038
+    },
+    {
+      "date": "2/28/2018 0:00",
+      "DIS": 102.34,
+      "earning_rate": 0,
+      "compound_earning": 6.038
+    },
+    {
+      "date": "3/1/2018 0:00",
+      "DIS": 101.75,
+      "earning_rate": 0,
+      "compound_earning": 6.038
+    },
+    {
+      "date": "3/2/2018 0:00",
+      "DIS": 102.17,
+      "earning_rate": 0.003,
+      "compound_earning": 6.056
+    },
+    {
+      "date": "3/5/2018 0:00",
+      "DIS": 102.59,
+      "earning_rate": 0.003,
+      "compound_earning": 6.075
+    },
+    {
+      "date": "3/6/2018 0:00",
+      "DIS": 104.11,
+      "earning_rate": 0.011,
+      "compound_earning": 6.142
+    },
+    {
+      "date": "3/7/2018 0:00",
+      "DIS": 102.77,
+      "earning_rate": 0,
+      "compound_earning": 6.142
+    },
+    {
+      "date": "3/8/2018 0:00",
+      "DIS": 103.2,
+      "earning_rate": 0.003,
+      "compound_earning": 6.162
+    },
+    {
+      "date": "3/9/2018 0:00",
+      "DIS": 103.9,
+      "earning_rate": 0.005,
+      "compound_earning": 6.193
+    },
+    {
+      "date": "3/12/2018 0:00",
+      "DIS": 104.33,
+      "earning_rate": 0.003,
+      "compound_earning": 6.212
+    },
+    {
+      "date": "3/13/2018 0:00",
+      "DIS": 102.91,
+      "earning_rate": 0,
+      "compound_earning": 6.212
+    },
+    {
+      "date": "3/14/2018 0:00",
+      "DIS": 103.07,
+      "earning_rate": 0.001,
+      "compound_earning": 6.22
+    },
+    {
+      "date": "3/15/2018 0:00",
+      "DIS": 102.42,
+      "earning_rate": 0,
+      "compound_earning": 6.22
+    },
+    {
+      "date": "3/16/2018 0:00",
+      "DIS": 102.05,
+      "earning_rate": 0,
+      "compound_earning": 6.22
+    },
+    {
+      "date": "3/19/2018 0:00",
+      "DIS": 100.67,
+      "earning_rate": 0,
+      "compound_earning": 6.22
+    },
+    {
+      "date": "3/20/2018 0:00",
+      "DIS": 100.54,
+      "earning_rate": 0,
+      "compound_earning": 6.22
+    },
+    {
+      "date": "3/21/2018 0:00",
+      "DIS": 101.01,
+      "earning_rate": 0.004,
+      "compound_earning": 6.241
+    },
+    {
+      "date": "3/22/2018 0:00",
+      "DIS": 99.8,
+      "earning_rate": 0,
+      "compound_earning": 6.241
+    },
+    {
+      "date": "3/23/2018 0:00",
+      "DIS": 97.76,
+      "earning_rate": 0,
+      "compound_earning": 6.241
+    },
+    {
+      "date": "3/26/2018 0:00",
+      "DIS": 99.85,
+      "earning_rate": 0.016,
+      "compound_earning": 6.341
+    },
+    {
+      "date": "3/27/2018 0:00",
+      "DIS": 98.57,
+      "earning_rate": 0,
+      "compound_earning": 6.341
+    },
+    {
+      "date": "3/28/2018 0:00",
+      "DIS": 97.76,
+      "earning_rate": 0,
+      "compound_earning": 6.341
+    },
+    {
+      "date": "3/29/2018 0:00",
+      "DIS": 99.64,
+      "earning_rate": 0.014,
+      "compound_earning": 6.433
+    },
+    {
+      "date": "4/2/2018 0:00",
+      "DIS": 97.88,
+      "earning_rate": 0,
+      "compound_earning": 6.433
+    },
+    {
+      "date": "4/3/2018 0:00",
+      "DIS": 98.63,
+      "earning_rate": 0.006,
+      "compound_earning": 6.47
+    },
+    {
+      "date": "4/4/2018 0:00",
+      "DIS": 100.15,
+      "earning_rate": 0.012,
+      "compound_earning": 6.545
+    },
+    {
+      "date": "4/5/2018 0:00",
+      "DIS": 101.3,
+      "earning_rate": 0.009,
+      "compound_earning": 6.601
+    },
+    {
+      "date": "4/6/2018 0:00",
+      "DIS": 99.55,
+      "earning_rate": 0,
+      "compound_earning": 6.601
+    },
+    {
+      "date": "4/9/2018 0:00",
+      "DIS": 98.91,
+      "earning_rate": 0,
+      "compound_earning": 6.601
+    },
+    {
+      "date": "4/10/2018 0:00",
+      "DIS": 100.56,
+      "earning_rate": 0.013,
+      "compound_earning": 6.684
+    },
+    {
+      "date": "4/11/2018 0:00",
+      "DIS": 100,
+      "earning_rate": 0,
+      "compound_earning": 6.684
+    },
+    {
+      "date": "4/12/2018 0:00",
+      "DIS": 99.59,
+      "earning_rate": 0,
+      "compound_earning": 6.684
+    },
+    {
+      "date": "4/13/2018 0:00",
+      "DIS": 99.55,
+      "earning_rate": 0,
+      "compound_earning": 6.684
+    },
+    {
+      "date": "4/16/2018 0:00",
+      "DIS": 99.44,
+      "earning_rate": 0,
+      "compound_earning": 6.684
+    },
+    {
+      "date": "4/17/2018 0:00",
+      "DIS": 101.36,
+      "earning_rate": 0.014,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/18/2018 0:00",
+      "DIS": 100.41,
+      "earning_rate": 0,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/19/2018 0:00",
+      "DIS": 100.09,
+      "earning_rate": 0,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/20/2018 0:00",
+      "DIS": 99.44,
+      "earning_rate": 0,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/23/2018 0:00",
+      "DIS": 99.35,
+      "earning_rate": 0,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/24/2018 0:00",
+      "DIS": 98.67,
+      "earning_rate": 0,
+      "compound_earning": 6.78
+    },
+    {
+      "date": "4/25/2018 0:00",
+      "DIS": 100.35,
+      "earning_rate": 0.013,
+      "compound_earning": 6.867
+    },
+    {
+      "date": "4/26/2018 0:00",
+      "DIS": 99.05,
+      "earning_rate": 0,
+      "compound_earning": 6.867
+    },
+    {
+      "date": "4/27/2018 0:00",
+      "DIS": 98.44,
+      "earning_rate": 0,
+      "compound_earning": 6.867
+    },
+    {
+      "date": "4/30/2018 0:00",
+      "DIS": 99.53,
+      "earning_rate": 0.008,
+      "compound_earning": 6.924
+    },
+    {
+      "date": "5/1/2018 0:00",
+      "DIS": 99.26,
+      "earning_rate": 0,
+      "compound_earning": 6.924
+    },
+    {
+      "date": "5/2/2018 0:00",
+      "DIS": 98.83,
+      "earning_rate": 0,
+      "compound_earning": 6.924
+    },
+    {
+      "date": "5/3/2018 0:00",
+      "DIS": 97.97,
+      "earning_rate": 0,
+      "compound_earning": 6.924
+    },
+    {
+      "date": "5/4/2018 0:00",
+      "DIS": 100.35,
+      "earning_rate": 0.018,
+      "compound_earning": 7.05
+    },
+    {
+      "date": "5/7/2018 0:00",
+      "DIS": 101.66,
+      "earning_rate": 0.01,
+      "compound_earning": 7.119
+    },
+    {
+      "date": "5/8/2018 0:00",
+      "DIS": 100.98,
+      "earning_rate": 0,
+      "compound_earning": 7.119
+    },
+    {
+      "date": "5/9/2018 0:00",
+      "DIS": 99.17,
+      "earning_rate": 0,
+      "compound_earning": 7.119
+    },
+    {
+      "date": "5/10/2018 0:00",
+      "DIS": 100.87,
+      "earning_rate": 0.013,
+      "compound_earning": 7.211
+    },
+    {
+      "date": "5/11/2018 0:00",
+      "DIS": 101.26,
+      "earning_rate": 0.003,
+      "compound_earning": 7.232
+    },
+    {
+      "date": "5/14/2018 0:00",
+      "DIS": 101.63,
+      "earning_rate": 0.003,
+      "compound_earning": 7.251
+    },
+    {
+      "date": "5/15/2018 0:00",
+      "DIS": 102.1,
+      "earning_rate": 0.003,
+      "compound_earning": 7.277
+    },
+    {
+      "date": "5/16/2018 0:00",
+      "DIS": 104.2,
+      "earning_rate": 0.015,
+      "compound_earning": 7.389
+    },
+    {
+      "date": "5/17/2018 0:00",
+      "DIS": 103.51,
+      "earning_rate": 0,
+      "compound_earning": 7.389
+    },
+    {
+      "date": "5/18/2018 0:00",
+      "DIS": 103.1,
+      "earning_rate": 0,
+      "compound_earning": 7.389
+    },
+    {
+      "date": "5/21/2018 0:00",
+      "DIS": 103.23,
+      "earning_rate": 0.001,
+      "compound_earning": 7.396
+    },
+    {
+      "date": "5/22/2018 0:00",
+      "DIS": 103.24,
+      "earning_rate": 0,
+      "compound_earning": 7.396
+    },
+    {
+      "date": "5/23/2018 0:00",
+      "DIS": 102.07,
+      "earning_rate": 0,
+      "compound_earning": 7.396
+    },
+    {
+      "date": "5/24/2018 0:00",
+      "DIS": 101.3,
+      "earning_rate": 0,
+      "compound_earning": 7.396
+    },
+    {
+      "date": "5/25/2018 0:00",
+      "DIS": 101.39,
+      "earning_rate": 0.001,
+      "compound_earning": 7.401
+    },
+    {
+      "date": "5/29/2018 0:00",
+      "DIS": 98.9,
+      "earning_rate": 0,
+      "compound_earning": 7.401
+    },
+    {
+      "date": "5/30/2018 0:00",
+      "DIS": 99.18,
+      "earning_rate": 0.002,
+      "compound_earning": 7.417
+    },
+    {
+      "date": "5/31/2018 0:00",
+      "DIS": 98.68,
+      "earning_rate": 0,
+      "compound_earning": 7.417
+    },
+    {
+      "date": "6/1/2018 0:00",
+      "DIS": 98.57,
+      "earning_rate": 0,
+      "compound_earning": 7.417
+    },
+    {
+      "date": "6/4/2018 0:00",
+      "DIS": 99.44,
+      "earning_rate": 0.007,
+      "compound_earning": 7.466
+    },
+    {
+      "date": "6/5/2018 0:00",
+      "DIS": 99.15,
+      "earning_rate": 0,
+      "compound_earning": 7.466
+    },
+    {
+      "date": "6/6/2018 0:00",
+      "DIS": 101.1,
+      "earning_rate": 0.015,
+      "compound_earning": 7.576
+    },
+    {
+      "date": "6/7/2018 0:00",
+      "DIS": 101.66,
+      "earning_rate": 0.004,
+      "compound_earning": 7.608
+    },
+    {
+      "date": "6/8/2018 0:00",
+      "DIS": 103.15,
+      "earning_rate": 0.011,
+      "compound_earning": 7.691
+    },
+    {
+      "date": "6/11/2018 0:00",
+      "DIS": 103.52,
+      "earning_rate": 0.003,
+      "compound_earning": 7.712
+    },
+    {
+      "date": "6/12/2018 0:00",
+      "DIS": 103.5,
+      "earning_rate": 0,
+      "compound_earning": 7.712
+    },
+    {
+      "date": "6/13/2018 0:00",
+      "DIS": 105.46,
+      "earning_rate": 0.014,
+      "compound_earning": 7.821
+    },
+    {
+      "date": "6/14/2018 0:00",
+      "DIS": 107.89,
+      "earning_rate": 0.017,
+      "compound_earning": 7.957
+    },
+    {
+      "date": "6/15/2018 0:00",
+      "DIS": 107.98,
+      "earning_rate": 0.001,
+      "compound_earning": 7.962
+    },
+    {
+      "date": "6/18/2018 0:00",
+      "DIS": 106.21,
+      "earning_rate": 0,
+      "compound_earning": 7.962
+    },
+    {
+      "date": "6/19/2018 0:00",
+      "DIS": 105.26,
+      "earning_rate": 0,
+      "compound_earning": 7.962
+    },
+    {
+      "date": "6/20/2018 0:00",
+      "DIS": 106.3,
+      "earning_rate": 0.007,
+      "compound_earning": 8.021
+    },
+    {
+      "date": "6/21/2018 0:00",
+      "DIS": 105.05,
+      "earning_rate": 0,
+      "compound_earning": 8.021
+    },
+    {
+      "date": "6/22/2018 0:00",
+      "DIS": 105.49,
+      "earning_rate": 0.003,
+      "compound_earning": 8.046
+    },
+    {
+      "date": "6/25/2018 0:00",
+      "DIS": 103.62,
+      "earning_rate": 0,
+      "compound_earning": 8.046
+    },
+    {
+      "date": "6/26/2018 0:00",
+      "DIS": 103.43,
+      "earning_rate": 0,
+      "compound_earning": 8.046
+    },
+    {
+      "date": "6/27/2018 0:00",
+      "DIS": 103.13,
+      "earning_rate": 0,
+      "compound_earning": 8.046
+    },
+    {
+      "date": "6/28/2018 0:00",
+      "DIS": 103.94,
+      "earning_rate": 0.006,
+      "compound_earning": 8.093
+    },
+    {
+      "date": "6/29/2018 0:00",
+      "DIS": 103.98,
+      "earning_rate": 0,
+      "compound_earning": 8.096
+    },
+    {
+      "date": "7/2/2018 0:00",
+      "DIS": 104.49,
+      "earning_rate": 0.004,
+      "compound_earning": 8.125
+    },
+    {
+      "date": "7/3/2018 0:00",
+      "DIS": 103.21,
+      "earning_rate": 0,
+      "compound_earning": 8.125
+    },
+    {
+      "date": "7/5/2018 0:00",
+      "DIS": 104.5,
+      "earning_rate": 0.009,
+      "compound_earning": 8.202
+    },
+    {
+      "date": "7/6/2018 0:00",
+      "DIS": 104.78,
+      "earning_rate": 0.002,
+      "compound_earning": 8.218
+    },
+    {
+      "date": "7/9/2018 0:00",
+      "DIS": 106.02,
+      "earning_rate": 0.009,
+      "compound_earning": 8.291
+    },
+    {
+      "date": "7/10/2018 0:00",
+      "DIS": 106.03,
+      "earning_rate": 0,
+      "compound_earning": 8.292
+    },
+    {
+      "date": "7/11/2018 0:00",
+      "DIS": 108.04,
+      "earning_rate": 0.014,
+      "compound_earning": 8.409
+    },
+    {
+      "date": "7/12/2018 0:00",
+      "DIS": 108.25,
+      "earning_rate": 0.001,
+      "compound_earning": 8.422
+    },
+    {
+      "date": "7/13/2018 0:00",
+      "DIS": 110,
+      "earning_rate": 0.012,
+      "compound_earning": 8.524
+    },
+    {
+      "date": "7/16/2018 0:00",
+      "DIS": 110.2,
+      "earning_rate": 0.001,
+      "compound_earning": 8.535
+    },
+    {
+      "date": "7/17/2018 0:00",
+      "DIS": 110.3,
+      "earning_rate": 0.001,
+      "compound_earning": 8.541
+    },
+    {
+      "date": "7/18/2018 0:00",
+      "DIS": 110.69,
+      "earning_rate": 0.003,
+      "compound_earning": 8.564
+    },
+    {
+      "date": "7/19/2018 0:00",
+      "DIS": 112.13,
+      "earning_rate": 0.01,
+      "compound_earning": 8.647
+    },
+    {
+      "date": "7/20/2018 0:00",
+      "DIS": 111.48,
+      "earning_rate": 0,
+      "compound_earning": 8.647
+    },
+    {
+      "date": "7/23/2018 0:00",
+      "DIS": 111.09,
+      "earning_rate": 0,
+      "compound_earning": 8.647
+    },
+    {
+      "date": "7/24/2018 0:00",
+      "DIS": 110.7,
+      "earning_rate": 0,
+      "compound_earning": 8.647
+    },
+    {
+      "date": "7/25/2018 0:00",
+      "DIS": 111.18,
+      "earning_rate": 0.003,
+      "compound_earning": 8.676
+    },
+    {
+      "date": "7/26/2018 0:00",
+      "DIS": 113.51,
+      "earning_rate": 0.016,
+      "compound_earning": 8.812
+    },
+    {
+      "date": "7/27/2018 0:00",
+      "DIS": 112.62,
+      "earning_rate": 0,
+      "compound_earning": 8.812
+    },
+    {
+      "date": "7/30/2018 0:00",
+      "DIS": 112.63,
+      "earning_rate": 0,
+      "compound_earning": 8.812
+    },
+    {
+      "date": "7/31/2018 0:00",
+      "DIS": 113.56,
+      "earning_rate": 0.006,
+      "compound_earning": 8.867
+    },
+    {
+      "date": "8/1/2018 0:00",
+      "DIS": 112.97,
+      "earning_rate": 0,
+      "compound_earning": 8.867
+    },
+    {
+      "date": "8/2/2018 0:00",
+      "DIS": 112.75,
+      "earning_rate": 0,
+      "compound_earning": 8.867
+    },
+    {
+      "date": "8/3/2018 0:00",
+      "DIS": 114.09,
+      "earning_rate": 0.009,
+      "compound_earning": 8.946
+    },
+    {
+      "date": "8/6/2018 0:00",
+      "DIS": 115.94,
+      "earning_rate": 0.012,
+      "compound_earning": 9.055
+    },
+    {
+      "date": "8/7/2018 0:00",
+      "DIS": 116.56,
+      "earning_rate": 0.004,
+      "compound_earning": 9.091
+    },
+    {
+      "date": "8/8/2018 0:00",
+      "DIS": 113.98,
+      "earning_rate": 0,
+      "compound_earning": 9.091
+    },
+    {
+      "date": "8/9/2018 0:00",
+      "DIS": 114.16,
+      "earning_rate": 0.001,
+      "compound_earning": 9.102
+    },
+    {
+      "date": "8/10/2018 0:00",
+      "DIS": 112.68,
+      "earning_rate": 0,
+      "compound_earning": 9.102
+    },
+    {
+      "date": "8/13/2018 0:00",
+      "DIS": 112.12,
+      "earning_rate": 0,
+      "compound_earning": 9.102
+    },
+    {
+      "date": "8/14/2018 0:00",
+      "DIS": 112.75,
+      "earning_rate": 0.004,
+      "compound_earning": 9.14
+    },
+    {
+      "date": "8/15/2018 0:00",
+      "DIS": 112.85,
+      "earning_rate": 0.001,
+      "compound_earning": 9.146
+    },
+    {
+      "date": "8/16/2018 0:00",
+      "DIS": 112.48,
+      "earning_rate": 0,
+      "compound_earning": 9.146
+    },
+    {
+      "date": "8/17/2018 0:00",
+      "DIS": 112.48,
+      "earning_rate": 0,
+      "compound_earning": 9.146
+    },
+    {
+      "date": "8/20/2018 0:00",
+      "DIS": 111.99,
+      "earning_rate": 0,
+      "compound_earning": 9.146
+    },
+    {
+      "date": "8/21/2018 0:00",
+      "DIS": 112.39,
+      "earning_rate": 0.003,
+      "compound_earning": 9.171
+    },
+    {
+      "date": "8/22/2018 0:00",
+      "DIS": 111.94,
+      "earning_rate": 0,
+      "compound_earning": 9.171
+    },
+    {
+      "date": "8/23/2018 0:00",
+      "DIS": 112,
+      "earning_rate": 0,
+      "compound_earning": 9.175
+    },
+    {
+      "date": "8/24/2018 0:00",
+      "DIS": 111.93,
+      "earning_rate": 0,
+      "compound_earning": 9.175
+    },
+    {
+      "date": "8/27/2018 0:00",
+      "DIS": 112.33,
+      "earning_rate": 0.003,
+      "compound_earning": 9.199
+    },
+    {
+      "date": "8/28/2018 0:00",
+      "DIS": 112.58,
+      "earning_rate": 0.002,
+      "compound_earning": 9.215
+    },
+    {
+      "date": "8/29/2018 0:00",
+      "DIS": 112.45,
+      "earning_rate": 0,
+      "compound_earning": 9.215
+    },
+    {
+      "date": "8/30/2018 0:00",
+      "DIS": 111.92,
+      "earning_rate": 0,
+      "compound_earning": 9.215
+    },
+    {
+      "date": "8/31/2018 0:00",
+      "DIS": 112.02,
+      "earning_rate": 0.001,
+      "compound_earning": 9.221
+    },
+    {
+      "date": "9/4/2018 0:00",
+      "DIS": 110.85,
+      "earning_rate": 0,
+      "compound_earning": 9.221
+    },
+    {
+      "date": "9/5/2018 0:00",
+      "DIS": 109.87,
+      "earning_rate": 0,
+      "compound_earning": 9.221
+    },
+    {
+      "date": "9/6/2018 0:00",
+      "DIS": 110.26,
+      "earning_rate": 0.003,
+      "compound_earning": 9.245
+    },
+    {
+      "date": "9/7/2018 0:00",
+      "DIS": 110.97,
+      "earning_rate": 0.005,
+      "compound_earning": 9.29
+    },
+    {
+      "date": "9/10/2018 0:00",
+      "DIS": 110.68,
+      "earning_rate": 0,
+      "compound_earning": 9.29
+    },
+    {
+      "date": "9/11/2018 0:00",
+      "DIS": 109.6,
+      "earning_rate": 0,
+      "compound_earning": 9.29
+    },
+    {
+      "date": "9/12/2018 0:00",
+      "DIS": 109.46,
+      "earning_rate": 0,
+      "compound_earning": 9.29
+    },
+    {
+      "date": "9/13/2018 0:00",
+      "DIS": 110.67,
+      "earning_rate": 0.008,
+      "compound_earning": 9.367
+    },
+    {
+      "date": "9/14/2018 0:00",
+      "DIS": 109.26,
+      "earning_rate": 0,
+      "compound_earning": 9.367
+    },
+    {
+      "date": "9/17/2018 0:00",
+      "DIS": 109.36,
+      "earning_rate": 0.001,
+      "compound_earning": 9.373
+    },
+    {
+      "date": "9/18/2018 0:00",
+      "DIS": 109.53,
+      "earning_rate": 0.001,
+      "compound_earning": 9.384
+    },
+    {
+      "date": "9/19/2018 0:00",
+      "DIS": 109.79,
+      "earning_rate": 0.002,
+      "compound_earning": 9.401
+    },
+    {
+      "date": "9/20/2018 0:00",
+      "DIS": 111.62,
+      "earning_rate": 0.013,
+      "compound_earning": 9.519
+    },
+    {
+      "date": "9/21/2018 0:00",
+      "DIS": 110.4,
+      "earning_rate": 0,
+      "compound_earning": 9.519
+    },
+    {
+      "date": "9/24/2018 0:00",
+      "DIS": 112.77,
+      "earning_rate": 0.016,
+      "compound_earning": 9.672
+    },
+    {
+      "date": "9/25/2018 0:00",
+      "DIS": 113.63,
+      "earning_rate": 0.006,
+      "compound_earning": 9.727
+    },
+    {
+      "date": "9/26/2018 0:00",
+      "DIS": 115.21,
+      "earning_rate": 0.01,
+      "compound_earning": 9.829
+    },
+    {
+      "date": "9/27/2018 0:00",
+      "DIS": 116.04,
+      "earning_rate": 0.005,
+      "compound_earning": 9.882
+    },
+    {
+      "date": "9/28/2018 0:00",
+      "DIS": 116.94,
+      "earning_rate": 0.006,
+      "compound_earning": 9.939
+    }
+  ]
