@@ -16,6 +16,7 @@ from sqlalchemy.ext.automap import automap_base
 
 import pymysql
 import json
+from decimal import *
 
 from flask.json import JSONEncoder
 from datetime import date
@@ -24,18 +25,11 @@ pymysql.install_as_MySQLdb()
 load_dotenv()
 
 ## Custom datetime class
-class CustomJSONEncoder(JSONEncoder):
-
+class DecimalEncoder(json.JSONEncoder):
     def default(self, obj):
-        try:
-            if isinstance(obj, date):
-                return obj.isoformat()
-            iterable = iter(obj)
-        except TypeError:
-            pass
-        else:
-            return list(iterable)
-        return JSONEncoder.default(self, obj)
+         if isinstance(obj, Decimal):
+             return float(obj)
+         return json.JSONEncoder.default(self, obj)
 
 # #################################################
 # # Database Setup
@@ -65,7 +59,7 @@ session = Session(bind=engine)
 #########################################################
 
 app = Flask(__name__, static_folder='./static', static_url_path='')
-app.json_encoder = CustomJSONEncoder
+app.json_encoder = DecimalEncoder
 
 #########################################################
 # Flask Routes #
@@ -117,16 +111,17 @@ def chartwitheventmarker():
 def get_json():
     session = Session(bind=engine)
     results = session.query(StockData.date, StockData.adj_close).filter_by(stock="DIS")
-    data = [{
-        'company':'DIS',
-        'data':
-        {
-            result.date.strftime("%Y-%m-%d %H:%M:%S"): str(result.adj_close)
-            for result in results
-        }
-    }]
     session.close()
-    return jsonify(data)
+    return jsonify(
+        [{
+            'company':'DIS',
+            'data':
+            {
+                result.date.strftime("%Y-%m-%d"): result.adj_close
+                for result in results
+            }
+        }]
+    )
 
 #########################################################
 if __name__ == '__main__':
