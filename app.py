@@ -69,9 +69,9 @@ app.json_encoder = DecimalEncoder
 def index():
     return render_template('index.html')
 
-@app.route("/get-start")
+@app.route("/get-started")
 def about():
-    return render_template('get-start.html')
+    return render_template('get-started.html')
 
 @app.route("/blog")
 def blog():
