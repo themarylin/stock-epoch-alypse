@@ -1,0 +1,11 @@
+certifi==2018.8.24
+Click==7.0
+Flask==1.0.2
+Flask-SQLAlchemy==2.3.2
+pipenv==2018.7.1
+PyMySQL==0.8.1
+python-dotenv==0.9.1
+SQLAlchemy==1.2.12
+virtualenv==16.0.0
+virtualenv-clone==0.3.0
+Werkzeug==0.14.1
