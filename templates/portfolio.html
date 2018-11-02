@@ -51,7 +51,7 @@
                         <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="get-started">Get Started</a></li>
                         <li class="nav-item"><a class="nav-link" href="machinelearning">Machine Learning</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio">Comparison</a></li>
                         <li class="nav-item dropdown submenu">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Blog
@@ -73,58 +73,125 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h2>Portfolio</h2>
-                    <p>See our best work</p>
+                    <h2>Comparison</h2>
+                    <p>Why/WhyNot Machine Learning</p>
                 </div>
             </div>
         </section>
         <!--================End Banner Area =================-->
-                <!--================Circle Chart Area =================-->
-                <section class="circle_chart_area">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="circle_progress circular style-polygon" data-percentage="75" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                                    <div class="circle_progress_inner">
-                                        <strong></strong>
-                                        <span class="percentage"></span>
-                                        <h4>Hard work</h4>
-                                    </div> 
+
+
+<!--================Chart Area =================-->     
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/ppopper.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+        <div class="content mt-3">
+            <div class="animated fadeIn">
+                <div class="row">
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Ideal Trading </h4>
+                                    <p>find js/js_group/ideal_trading.js file, some chart supposed to show here, need some debugging</p>
+                                    <canvas id="ideal-chart"></canvas>
+                                    <!-- <script src="{{url_for('static', filename='js/js_group/ideal_trading.js')}}"></script> -->
+                                    <script src="js/js_group/ideal_trading.js"></script>
+                                    
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="circle_progress circular style-polygon" data-percentage="83" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                                    <div class="circle_progress_inner">
-                                        <strong></strong>
-                                        <span class="percentage"></span>
-                                        <h4>Creativity</h4>
-                                    </div> 
+                        </div><!-- /# column -->
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Random Buy/Sell </h4>
+                                    <canvas id="random-chart"></canvas>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="circle_progress circular style-polygon" data-percentage="25" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                                    <div class="circle_progress_inner">
-                                        <strong></strong>
-                                        <span class="percentage"></span>
-                                        <h4>Good luck</h4>
-                                    </div> 
+                        </div><!-- /# column -->
+
+                        <br>
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Machine Learning </h4>
+                                    <canvas id="ml-hart"></canvas>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="circle_progress circular style-polygon" data-percentage="95" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                                    <div class="circle_progress_inner">
-                                        <strong></strong>
-                                        <span class="percentage"></span>
-                                        <h4>Development</h4>
-                                    </div> 
+                        </div><!-- /# column -->
+
+
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="mb-3">Buy and Hold S&P 500 </h4>
+                                    <canvas id="snp500-Chart"></canvas>
                                 </div>
                             </div>
-                        </div>
+
+
+                        </div><!-- /# column -->
+                </div>
+            </div>
+        </div>
+
+
+<!--================End Chart Area =================-->        
+
+
+
+
+<!--================Circle Chart Area =================-->
+    <section class="circle_chart_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="995" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Ideal Trading</h4>
+                        </div> 
                     </div>
-                </section>
-                <!--================End Circle Chart Area =================-->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="13" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Random Buy/Sell</h4>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="25" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Machine Learning</h4>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="95" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Buy and Hold S&P 500</h4>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Circle Chart Area =================-->
                 
-               <!--================Challange Area =================-->
+        <!--================Challange Area =================-->
         <section class="challange_area p_100">
             <div class="container-fluid">
                 <div class="row">
@@ -136,9 +203,7 @@
                                 <h2>We don’t hide, we stand tall in front of chalenge</h2>
                             </div>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae eros dignissim ultrices. </p>
-                            <div class="c_video">
-                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png" alt="">See how we work </a>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-6 challange_img">

@@ -22,10 +22,8 @@ anychart.onDocumentReady(function () {
     //     // create data table on loaded data
     //     var dataTable = anychart.data.table();
     //     dataTable.addData(data);
-        
-        
-        var dataTable = anychart.data.table();
-        // create stock chart
+
+    // create stock chart
         var chart = anychart.stock();
 
         // set chart title
@@ -35,10 +33,10 @@ anychart.onDocumentReady(function () {
         var plot = chart.plot(0);
 
         // create plot series with mapped data
-        plot.line(price).name('Sapphire');
+        plot.line(price).name('Disney');
 
         // create scroller series with mapped data
-        chart.scroller().line(dataTable.mapAs({'value': 1}));
+        chart.scroller().line(price);
 
         // set tooltip title formatter for the chart
         chart.tooltip().titleFormat(function () {
