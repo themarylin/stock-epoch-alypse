@@ -107,3 +107,58 @@ for train_stock in stocks_to_train:
     bias_hidden_3 = tf.Variable(bias_initializer([n_neurons_3]))
     W_hidden_4 = tf.Variable(weight_initializer([n_neurons_3, n_neurons_4]))
     bias_hidden_4 = tf.Variable(bias_initializer([n_neurons_4]))
+
+    # Output weights
+    W_out = tf.Variable(weight_initializer([n_neurons_4, 1]))
+    bias_out = tf.Variable(bias_initializer([1]))
+
+    # Building hidden layers, using relu activation function
+    hidden_1 = tf.nn.relu(tf.add(tf.matmul(X, W_hidden_1), bias_hidden_1))
+    hidden_2 = tf.nn.relu(
+        tf.add(tf.matmul(hidden_1, W_hidden_2), bias_hidden_2))
+    hidden_3 = tf.nn.relu(
+        tf.add(tf.matmul(hidden_2, W_hidden_3), bias_hidden_3))
+    hidden_4 = tf.nn.relu(
+        tf.add(tf.matmul(hidden_3, W_hidden_4), bias_hidden_4))
+
+
+    # Output layer (transpose!)-find info
+    out = tf.transpose(tf.add(tf.matmul(hidden_4, W_out), bias_out))
+
+    # Cost function - MSE, standard in NN
+    mse = tf.reduce_mean(tf.squared_difference(out, Y))
+
+    # Optimizer
+    # stock learning rate = .001
+    opt = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(mse)
+
+    # Init
+    net.run(tf.global_variables_initializer())
+
+    # In[26]:
+    # Setup plot
+    plt.ion()
+    fig = plt.figure()
+    ax1 = fig.add_subplot(311)  # 311 means "3x1" grid, 1st subplot
+    # take out dates_test for normalized data printing for both line 1 and line 2
+    line1, = ax1.plot(dates_test, y_test)
+    # results what we predict the output to be (.5 so that the graph starts lower then heightens as it starts to match the test data)
+    line2, = ax1.plot(dates_test, y_test * 0.5)
+
+    mse_length = epochs*((len(y_train) // batch_size // graph_updates) + 1)
+
+    print("Length expected: ", mse_length)
+    # create a list of zeros for the plot to append to for the graphing
+    mse_plot_train = np.zeros(mse_length)
+    mse_plot_test = np.zeros(mse_length)
+    ax2 = fig.add_subplot(312)  # 312 means "3x1" grid, 2nd subplot
+    ax2.set_ylim(0, 1000)  # range of plot(y)
+    line3, = ax2.plot(mse_plot_test)
+    line4, = ax2.plot(mse_plot_train)
+    ax3 = fig.add_subplot(313)  # 313 means "2x1" grid, 3nd subplot
+    ax3.set_ylim(-100, 100)  # range of plot(y)
+    line5, = ax3.plot(dates_test, y_test)
+    line6, = ax3.plot(dates_test, np.zeros(y_test.shape[0]))
+
+    plt.show()
+
