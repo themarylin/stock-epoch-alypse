@@ -121,7 +121,6 @@ for train_stock in stocks_to_train:
     hidden_4 = tf.nn.relu(
         tf.add(tf.matmul(hidden_3, W_hidden_4), bias_hidden_4))
 
-
     # Output layer (transpose!)-find info
     out = tf.transpose(tf.add(tf.matmul(hidden_4, W_out), bias_out))
 
@@ -162,3 +161,60 @@ for train_stock in stocks_to_train:
 
     plt.show()
 
+    print("Y train:", len(y_train))
+
+    # Fit neural net
+    mse_train = []
+    mse_test = []
+
+    # Run
+    for e in range(epochs):
+
+        # Shuffle training data - doesnt shuffle time series, just the batches of time series
+        shuffle_indices = np.random.permutation(np.arange(len(y_train)))
+        X_train = X_train[shuffle_indices]
+        y_train = y_train[shuffle_indices]
+
+        # Minibatch training
+        for i in range(0, len(y_train) // batch_size):
+            start = i * batch_size
+            batch_x = X_train[start:start + batch_size]
+            batch_y = y_train[start:start + batch_size]
+            # Run optimizer - utilizing batch made from above to feed into NN X,Y values
+            net.run(opt, feed_dict={X: batch_x, Y: batch_y})
+
+            # Show progress
+            if np.mod(i, graph_updates) == 0:
+                # MSE train and test
+                mse_train.append(
+                    net.run(mse, feed_dict={X: X_train, Y: y_train}))
+                mse_test.append(net.run(mse, feed_dict={X: X_test, Y: y_test}))
+                # appending to the back of the list
+                print('MSE Train: ', mse_train[-1])
+                print('MSE Test: ', mse_test[-1])
+                # Prediction
+                pred = net.run(out, feed_dict={X: X_test})
+                line2.set_ydata(pred)
+                # setting plot train and plot test so that it updates the mse values and -1 so that it plots the earliest value
+                mse_plot_test[len(mse_test)-1] = mse_test[-1]
+                mse_plot_train[len(mse_train)-1] = mse_train[-1]
+                # test
+                line3.set_ydata(mse_plot_test)
+                # train
+                line4.set_ydata(mse_plot_train)
+                line5.set_ydata(pred-y_test)
+                plt.title('Epoch ' + str(e) + ', Batch ' + str(i))
+                plt.pause(0.01)
+
+                # print("Length: ", len(mse_test))
+        # print("i: ", epochs * (i//graph_updates + 1))
+
+    pickle.dump(pred, open('save.p', 'wb'))
+
+    title = str(n_neurons_1) + "_" + str(epochs) + "_" + \
+        str(learning_rate) + "_" + str(future_time) + "_" + \
+        str(train_stock) + "_" + str(train_test_split)
+
+    pickle.dump([pred, y_test, dates_test], open(title + ".p", 'wb'))
+    plt.title(title + ".p")
+    fig.savefig(title + ".png")
