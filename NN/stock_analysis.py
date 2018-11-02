@@ -74,3 +74,36 @@ for train_stock in stocks_to_train:
     # pulling out dates that we are testing on for plotting
     dates_test = dates_raw[
         test_start + future_time: test_end + future_time]
+
+    # Number of stocks in training data
+    n_stocks = X_train.shape[1]
+    n_stocks
+
+    # Neurons
+    n_neurons_1 = n_neurons
+    n_neurons_2 = n_neurons_1//2
+    n_neurons_3 = n_neurons_2//2
+    n_neurons_4 = n_neurons_3//2
+
+    # Session
+    net = tf.InteractiveSession()
+
+    # Placeholder
+    X = tf.placeholder(dtype=tf.float32, shape=[None, n_stocks])
+    Y = tf.placeholder(dtype=tf.float32, shape=[None])
+
+    # Initialize weights and bias of NN using uniform distribution and fan_avg
+    sigma = 1
+    weight_initializer = tf.variance_scaling_initializer(
+        mode="fan_avg", distribution="uniform", scale=sigma)
+    bias_initializer = tf.zeros_initializer()
+
+    # Hidden weights-self exp
+    W_hidden_1 = tf.Variable(weight_initializer([n_stocks, n_neurons_1]))
+    bias_hidden_1 = tf.Variable(bias_initializer([n_neurons_1]))
+    W_hidden_2 = tf.Variable(weight_initializer([n_neurons_1, n_neurons_2]))
+    bias_hidden_2 = tf.Variable(bias_initializer([n_neurons_2]))
+    W_hidden_3 = tf.Variable(weight_initializer([n_neurons_2, n_neurons_3]))
+    bias_hidden_3 = tf.Variable(bias_initializer([n_neurons_3]))
+    W_hidden_4 = tf.Variable(weight_initializer([n_neurons_3, n_neurons_4]))
+    bias_hidden_4 = tf.Variable(bias_initializer([n_neurons_4]))
