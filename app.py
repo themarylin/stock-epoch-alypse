@@ -129,14 +129,15 @@ def get_json_scen():
     
     session = Session(bind=engine)
     results = session.query(
-        ScenarioData.date, ScenarioData.ideal_compound_earning_adj)
+        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj)
     session.close()
     return jsonify(
         {
          'data': [
              {
                  'date': result.date.strftime("%Y-%m-%d"),
-                 'ideal_earning': result.ideal_compound_earning_adj
+                 'ideal_earning': result.ideal_compound_earning_adj,
+                 'snp_500': result.snp500_earning_adj
              }
              for result in results
          ]

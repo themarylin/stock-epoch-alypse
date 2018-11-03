@@ -1,5 +1,6 @@
 var date = [];
-var price = [];
+var ideal = [];
+var snp = [];
 
 //this is the first chart that shows a comparison of states
 
@@ -16,21 +17,22 @@ var price = [];
 
 // })
 
-d3.json("api?stock=DIS").then(function (response){
-    jump = 200;
+d3.json("api/scen").then(function (response){
+    jump = 18;
     stocks = response.data;
     for (var i = 0; i < stocks.length/jump; i++){
         for (var j = 0; j < jump; j++){
             var count = i*jump+j;
             date.push(stocks[count].date);
-            price.push(stocks[count].price);
+            ideal.push(stocks[count].ideal_earning);
+            snp.push(stocks[count].snp_500);
         }
     };
     
-    renderLineChart(date, price, 'ideal-chart', 'Ideal');
-    renderLineChart(date, price, 'random-chart', 'Random');
-    renderLineChart(date, price, 'ml-chart', 'Machine-Learning');
-    renderLineChart(date, price, 'snp500-chart', 'S&P 500');
+    renderLineChart(date, ideal, 'ideal-chart', 'Ideal');
+    renderLineChart(date, ideal, 'random-chart', 'Random');
+    renderLineChart(date, ideal, 'ml-chart', 'Machine-Learning');
+    renderLineChart(date, snp, 'snp500-chart', 'S&P 500');
 })
 
 //this builds the bar chart for the first half of html
