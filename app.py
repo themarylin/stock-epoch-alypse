@@ -25,6 +25,9 @@ from datetime import date
 pymysql.install_as_MySQLdb()
 load_dotenv()
 
+from NN.pickle_load import load_and_plot
+import numpy
+
 # Custom datetime class
 
 
@@ -32,6 +35,12 @@ class DecimalEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Decimal):
             return float(obj)
+        elif isinstance(obj, numpy.integer):
+            return int(obj)
+        elif isinstance(obj, numpy.floating):
+            return float(obj)
+        elif isinstance(obj, numpy.ndarray):
+            return obj.tolist()
         return json.JSONEncoder.default(self, obj)
 
 
@@ -163,6 +172,29 @@ def get_json():
              for result in results
          ]
          }
+    )
+
+@app.route("/api/ml", methods=['GET'])
+def get_ml():
+
+    stock_ticker = request.args.get('stock')
+    n_neurons = 256
+    n_epochs = request.args.get('epochs')
+    learning_rate = request.args.get('learnrate')
+    future_days = 1
+    split = request.args.get('split')
+
+    data = load_and_plot(n_neurons=n_neurons, n_epochs=n_epochs, learning_rate=learning_rate, future_days=future_days, stock_ticker=stock_ticker, split=split)
+    return jsonify(
+        {
+            'company': stock_ticker,
+            'n_neurons': n_neurons,
+            'n_epochs': n_epochs,
+            'learning_rate':learning_rate,
+            'future_days':future_days,
+            'split':split,
+            'data': data
+        }
     )
 
 #########################################################
