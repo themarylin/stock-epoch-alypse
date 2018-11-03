@@ -2,16 +2,35 @@ var date = [];
 var price = [];
 
 //this is the first chart that shows a comparison of states
-d3.json("api?stock=DIS").then(function (response) {
-    response.data.forEach(function (d) {
-        date.push(d.date);
-        price.push(d.price);
-        renderLineChart(date, price, 'ideal-chart', 'Ideal');
-        renderLineChart(date, price, 'random-chart', 'Random');
-        renderLineChart(date, price, 'ml-chart', 'Machine-Learning');
-        renderLineChart(date, price, 'snp500-chart', 'S&P 500');
-    });
 
+
+// d3.json("api?stock=DIS").then(function (response) {
+//     response.data.forEach(function (d) {
+//         date.push(d.date);
+//         price.push(d.price);
+//         renderLineChart(date, price, 'ideal-chart', 'Ideal');
+//         renderLineChart(date, price, 'random-chart', 'Random');
+//         renderLineChart(date, price, 'ml-chart', 'Machine-Learning');
+//         renderLineChart(date, price, 'snp500-chart', 'S&P 500');
+//     });
+
+// })
+
+d3.json("api?stock=DIS").then(function (response){
+    jump = 200;
+    stocks = response.data;
+    for (var i = 0; i < stocks.length/jump; i++){
+        for (var j = 0; j < jump; j++){
+            var count = i*jump+j;
+            date.push(stocks[count].date);
+            price.push(stocks[count].price);
+        }
+    };
+    
+    renderLineChart(date, price, 'ideal-chart', 'Ideal');
+    renderLineChart(date, price, 'random-chart', 'Random');
+    renderLineChart(date, price, 'ml-chart', 'Machine-Learning');
+    renderLineChart(date, price, 'snp500-chart', 'S&P 500');
 })
 
 //this builds the bar chart for the first half of html

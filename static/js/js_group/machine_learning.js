@@ -4,9 +4,9 @@ var price = [];
 
 //this is the first chart that shows a comparison of states
 d3.json("/api?stock=DIS").then(function (response) {
-    response.forEach(function (d) {
-        date.push(d.data[0]);
-        price.push(d.data[1]);
+    response.data.forEach(function (d) {
+        date.push(d.date);
+        price.push(d.price);
         
         renderBarChart(date, price, 'bar_chart');
     });

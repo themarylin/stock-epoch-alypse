@@ -6,3 +6,7 @@ section.graph_area_comparison {
 .idealchart{
     height:800px
 }
+
+.c_video .video_img {
+    align-self: center
+}
