@@ -131,29 +131,6 @@ def single():
 ########################################################
 
 # Endpoint for Disney
-
-
-@app.route("/api/scen", methods=['GET'])
-def get_json_scen():
-    
-    session = Session(bind=engine)
-    results = session.query(
-        ScenarioData.date, ScenarioData.ideal_compound_earning, ScenarioData.snp500_earning_adj)
-    session.close()
-    return jsonify(
-        {
-         'data': [
-             {
-                 'date': result.date.strftime("%Y-%m-%d"),
-                 'ideal_earning': result.ideal_compound_earning,
-                 'snp_500': result.snp500_earning_adj
-             }
-             for result in results
-         ]
-         }
-    )
-
-
 @app.route("/api", methods=['GET'])
 def get_json():
     stock_ticker = request.args.get('stock')
@@ -173,6 +150,7 @@ def get_json():
          }
     )
 
+# Endpoint for Machine Learning Results
 @app.route("/api/ml", methods=['GET'])
 def get_ml():
 
@@ -194,6 +172,28 @@ def get_ml():
             'split':split,
             'data': data
         }
+    )
+
+
+@app.route("/api/scen", methods=['GET'])
+def get_json_scen():
+    
+    session = Session(bind=engine)
+    results = session.query(
+        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj)
+    session.close()
+    return jsonify(
+        {
+         'data': [
+             {
+                 'date': result.date.strftime("%Y-%m-%d"),
+                 'ideal_earning': result.ideal_compound_earning_adj,
+                 'snp_500': result.snp500_earning_adj,
+                 'ml': result.ml_earning_adj
+             }
+             for result in results
+         ]
+         }
     )
 
 #########################################################
