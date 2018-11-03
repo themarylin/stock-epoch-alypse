@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 from sqlalchemy import text
 from sqlalchemy.ext.automap import automap_base
+from sqlalchemy import desc
 
 import pymysql
 import json
@@ -24,12 +25,15 @@ from datetime import date
 pymysql.install_as_MySQLdb()
 load_dotenv()
 
-## Custom datetime class
+# Custom datetime class
+
+
 class DecimalEncoder(json.JSONEncoder):
     def default(self, obj):
-         if isinstance(obj, Decimal):
-             return float(obj)
-         return json.JSONEncoder.default(self, obj)
+        if isinstance(obj, Decimal):
+            return float(obj)
+        return json.JSONEncoder.default(self, obj)
+
 
 # #################################################
 # # Database Setup
@@ -47,7 +51,8 @@ connection = f"mysql://{username}:{password}@{host}:{port}/{database}"
 
 Base = automap_base()
 engine = create_engine(connection, pool_recycle=1)
-conn = engine.connect()  # <-- this line is not strictly necessary, but it's ref'd in the docs
+# <-- this line is not strictly necessary, but it's ref'd in the docs
+conn = engine.connect()
 
 # Generating base classes
 Base.prepare(engine, reflect=True)
@@ -65,17 +70,21 @@ app.json_encoder = DecimalEncoder
 # Flask Routes #
 #########################################################
 
+
 @app.route("/")
 def index():
     return render_template('index.html')
+
 
 @app.route("/get-started")
 def get_started():
     return render_template('get-started.html')
 
+
 @app.route("/machinelearning")
 def machinelearning():
     return render_template('machinelearning.html')
+
 
 @app.route("/portfolio")
 def portfolio():
@@ -83,17 +92,21 @@ def portfolio():
 
 #########################################################
 
+
 @app.route("/blog")
 def blog():
     return render_template('blog.html')
+
 
 @app.route("/contact")
 def contact():
     return render_template('contact.html')
 
+
 @app.route("/elements")
 def elements():
     return render_template('elements.html')
+
 
 @app.route("/single-blog")
 def single():
@@ -103,22 +116,28 @@ def single():
 # API Endpoints #
 ########################################################
 
-## Endpoint for Disney
-@app.route("/api/dis", methods=['GET'])
+# Endpoint for Disney
+
+
+@app.route("/api", methods=['GET'])
 def get_json():
+    stock_ticker = request.args.get('stock')
     session = Session(bind=engine)
-    results = session.query(StockData.date, StockData.adj_close).filter_by(stock="DIS")
+    results = session.query(
+        StockData.date, StockData.adj_close).filter_by(stock=stock_ticker).limit(100).all()
     session.close()
     return jsonify(
-        [{
-            'company':'DIS',
-            'data':
-            {
-                result.date.strftime("%Y-%m-%d"): result.adj_close
-                for result in results
-            }
-        }]
+        {'company': stock_ticker,
+         'data': [
+             {
+                 'date': result.date.strftime("%Y-%m-%d"),
+                 'price': result.adj_close
+             }
+             for result in results
+         ]
+         }
     )
+
 
 #########################################################
 if __name__ == '__main__':

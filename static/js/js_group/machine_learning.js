@@ -1,11 +1,9 @@
 // this script creates a stock chart with event-markers for DIS stock.
-
-
 var date = [];
 var price = [];
 
 //this is the first chart that shows a comparison of states
-d3.json("/api/dis").then(function (response) {
+d3.json("/api?stock=DIS").then(function (response) {
     response.forEach(function (d) {
         date.push(d.data[0]);
         price.push(d.data[1]);
