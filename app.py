@@ -31,7 +31,7 @@ import numpy
 # Custom datetime class
 
 
-class DecimalEncoder(json.JSONEncoder):
+class CustomEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Decimal):
             return float(obj)
@@ -74,7 +74,7 @@ session = Session(bind=engine)
 #########################################################
 
 app = Flask(__name__, static_folder='./static', static_url_path='')
-app.json_encoder = DecimalEncoder
+app.json_encoder = CustomEncoder
 
 #########################################################
 # Flask Routes #
