@@ -8,3 +8,6 @@
 test.txt
 # jupyter notebook checkpoints
 .ipynb_checkpoints
+
+#_pycache_
+_pycache_
