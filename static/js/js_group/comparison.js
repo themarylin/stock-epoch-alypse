@@ -41,18 +41,18 @@ function renderLineChart(x_values, y1, chartname, name) {
         x: x_values,
         y: y1,
         text: y1,
-        name: 'Total Positions',
         mode: 'lines',
-        textposition: 'auto',
-        hoverinfo: 'none'
+        line: {
+            color: '#17BECF'
+        }
     };
 
     var data = [trace1];
 
     var layout = {
         autosize: true,
-        title: 'DIS Earnings:'+name,
-        height:350,           
+        title: 'Earnings:'+ name,
+        height:350           
     };
 
     Plotly.newPlot(chartname, data, layout);
