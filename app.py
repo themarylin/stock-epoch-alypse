@@ -86,9 +86,13 @@ def machinelearning():
     return render_template('machinelearning.html')
 
 
-@app.route("/portfolio")
-def portfolio():
-    return render_template('portfolio.html')
+@app.route("/comparison")
+def comparison():
+    return render_template('comparison.html')
+
+@app.route("/events")
+def events():
+    return render_template('chartwitheventmarker.html')
 
 #########################################################
 
@@ -117,8 +121,6 @@ def single():
 ########################################################
 
 # Endpoint for Disney
-
-
 @app.route("/api", methods=['GET'])
 def get_json():
     stock_ticker = request.args.get('stock')
@@ -137,7 +139,6 @@ def get_json():
          ]
          }
     )
-
 
 #########################################################
 if __name__ == '__main__':
