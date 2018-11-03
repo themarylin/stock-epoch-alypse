@@ -57,6 +57,7 @@ conn = engine.connect()
 # Generating base classes
 Base.prepare(engine, reflect=True)
 StockData = Base.classes.sp5data
+ScenarioData = Base.classes.scenarios
 session = Session(bind=engine)
 
 #########################################################
@@ -119,6 +120,27 @@ def single():
 # Endpoint for Disney
 
 
+@app.route("/api/scen", methods=['GET'])
+def get_json_scen():
+    
+    session = Session(bind=engine)
+    results = session.query(
+        ScenarioData.date, ScenarioData.ideal_compound_earning_adj)
+    session.close()
+    return jsonify(
+        {
+         'data': [
+             {
+                 'date': result.date.strftime("%Y-%m-%d"),
+                 'ideal_earning': result.ideal_compound_earning_adj
+             }
+             for result in results
+         ]
+         }
+    )
+
+
+
 @app.route("/api", methods=['GET'])
 def get_json():
     stock_ticker = request.args.get('stock')
@@ -137,7 +159,6 @@ def get_json():
          ]
          }
     )
-
 
 #########################################################
 if __name__ == '__main__':
