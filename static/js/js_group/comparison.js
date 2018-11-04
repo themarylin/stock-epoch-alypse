@@ -1,6 +1,8 @@
-var date = [];
+var dates = [];
 var ideal = [];
 var snp = [];
+var random = [];
+var ml = []
 
 //this is the first chart that shows a comparison of states
 
@@ -17,22 +19,40 @@ var snp = [];
 
 // })
 
-d3.json("api/scen").then(function (response){
-    jump = 18;
+d3.json("api/scen").then(function (response) {
+    jump = 50;
     stocks = response.data;
-    for (var i = 0; i < stocks.length/jump; i++){
-        for (var j = 0; j < jump; j++){
-            var count = i*jump+j;
-            date.push(stocks[count].date);
-            ideal.push(stocks[count].ideal_earning);
-            snp.push(stocks[count].snp_500);
+    rep = Math.floor(stocks.length / jump);
+    rem = (stocks.length % jump) - 1;
+
+    console.log(stocks.length);
+    console.log(rep);
+    console.log(rem);
+
+    for (var i = 0; i <= (rep); i++) {
+        if (i == (rep)) {
+            for (var j = 0; j < rem; j++) {
+                var count = i * jump + j;
+                dates.push(stocks[count].date);
+                ideal.push(+(stocks[count].ideal_earning*100).toFixed(2));
+                snp.push(+(stocks[count].snp_500*100).toFixed(2));
+                ml.push(+(stocks[count].ml*100).toFixed(2));
+            };
+        } else {
+            for (var j = 0; j < jump; j++) {
+                var count = i * jump + j;
+                dates.push(stocks[count].date);
+                ideal.push(+(stocks[count].ideal_earning*100).toFixed(2));
+                snp.push(+(stocks[count].snp_500*100).toFixed(2));
+                ml.push(+(stocks[count].ml*100).toFixed(2));
+            };
         }
     };
-    
-    renderLineChart(date, ideal, 'ideal-chart', 'Ideal');
-    renderLineChart(date, ideal, 'random-chart', 'Random');
-    renderLineChart(date, ideal, 'ml-chart', 'Machine-Learning');
-    renderLineChart(date, snp, 'snp500-chart', 'S&P 500');
+
+    renderLineChart(dates, ideal, 'ideal-chart', 'Ideal');
+    renderLineChart(dates, random, 'random-chart', 'Random');
+    renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning');
+    renderLineChart(dates, snp, 'snp500-chart', 'S&P 500');
 })
 
 //this builds the bar chart for the first half of html
@@ -41,18 +61,18 @@ function renderLineChart(x_values, y1, chartname, name) {
         x: x_values,
         y: y1,
         text: y1,
-        name: 'Total Positions',
         mode: 'lines',
-        textposition: 'auto',
-        hoverinfo: 'none'
+        line: {
+            color: '#17BECF'
+        }
     };
 
     var data = [trace1];
 
     var layout = {
         autosize: true,
-        title: 'DIS Earnings:'+name,
-        height:350,           
+        title: 'Earnings: ' + name,
+        height: 350
     };
 
     Plotly.newPlot(chartname, data, layout);
