@@ -58,28 +58,85 @@ function renderLineChart(x_values, y1, y2, chartname) {
 
         //Event Markers - indicating large unprecedented price changes
 
-        // annotations: [{
-        //     x: "1970-01-13",
-        //     y: 0.541131657,
-        //     xref: 'x',
-        //     yref: 'y',
-        //     text: 'IPO Date',
-        //     showarrow: true,
-        //     arrowhead: 7,
-        //     ax: 0,
-        //     ay: -40
-        // },
-        // {
-        //     x: "1964-01-27",
-        //     y: 0.149277699,
-        //     xref: 'x',
-        //     yref: 'y',
-        //     text: 'IPO Date',
-        //     showarrow: true,
-        //     arrowhead: 7,
-        //     ax: 0,
-        //     ay: -40
-        // }]
+        annotations: [{
+            x: "2015-06-10",
+            y: 104.6,
+            xref: 'x',
+            yref: 'y',
+            text: 'Inside Out',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -50
+        },
+        {
+            x: "2015-08-03",
+            y: 115.83,
+            xref: 'x',
+            yref: 'y',
+            text: 'Q2 F/S Report missed Wall Street Estimates',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -50
+        },
+        {
+            x: "2016-03-04",
+            y: 94.79,
+            xref: 'x',
+            yref: 'y',
+            text: 'Zootopia',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -100
+        },
+        {
+            x: "2016-06-16",
+            y: 94.69,
+            xref: 'x',
+            yref: 'y',
+            text: 'Opening Shanghai Disney Resort',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -110
+        },
+        {
+            x: "2017-05-30",
+            y: 105.82,
+            xref: 'x',
+            yref: 'y',
+            text: 'Pandora The World of AVATAR Opening',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -100
+        },
+        {
+            x: "2017-11-22",
+            y: 101.11,
+            xref: 'x',
+            yref: 'y',
+            text: 'Coco',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -70
+        },
+        {
+            x: "2018-07-02",
+            y: 104.49,
+            xref: 'x',
+            yref: 'y',
+            text: 'Toy Story Land Opening',
+            showarrow: true,
+            arrowhead: 5,
+            ax: 0,
+            ay: -70
+        }
+    
+    ]
     };
 
     Plotly.newPlot(chartname, data, layout);

@@ -34,25 +34,25 @@ d3.json("api/scen").then(function (response) {
             for (var j = 0; j < rem; j++) {
                 var count = i * jump + j;
                 dates.push(stocks[count].date);
-                ideal.push(+(stocks[count].ideal_earning*100).toFixed(2));
-                snp.push(+(stocks[count].snp_500*100).toFixed(2));
-                ml.push(+(stocks[count].ml*100).toFixed(2));
+                ideal.push(+(stocks[count].ideal_earning).toFixed(2));
+                snp.push(+(stocks[count].snp_500).toFixed(2));
+                ml.push(+(stocks[count].ml).toFixed(2));
             };
         } else {
             for (var j = 0; j < jump; j++) {
                 var count = i * jump + j;
                 dates.push(stocks[count].date);
-                ideal.push(+(stocks[count].ideal_earning*100).toFixed(2));
-                snp.push(+(stocks[count].snp_500*100).toFixed(2));
-                ml.push(+(stocks[count].ml*100).toFixed(2));
+                ideal.push(+(stocks[count].ideal_earning).toFixed(2));
+                snp.push(+(stocks[count].snp_500).toFixed(2));
+                ml.push(+(stocks[count].ml).toFixed(2));
             };
         }
     };
 
-    renderLineChart(dates, ideal, 'ideal-chart', 'Ideal');
+    renderLineChart(dates, ideal, 'ideal-chart', 'Ideal (DIS)');
     renderLineChart(dates, random, 'random-chart', 'Random');
-    renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning');
-    renderLineChart(dates, snp, 'snp500-chart', 'S&P 500');
+    renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning (DIS)');
+    renderLineChart(dates, snp, 'snp500-chart', 'Buy & Hold (S&P 500)');
 })
 
 //this builds the bar chart for the first half of html
@@ -72,7 +72,10 @@ function renderLineChart(x_values, y1, chartname, name) {
     var layout = {
         autosize: true,
         title: 'Earnings: ' + name,
-        height: 350
+        height: 350,
+        yaxis: {
+            tickformat: '.0%'
+        }
     };
 
     Plotly.newPlot(chartname, data, layout);
