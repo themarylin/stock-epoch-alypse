@@ -28,9 +28,7 @@ load_dotenv()
 from NN.pickle_load import load_and_plot
 import numpy
 
-# Custom datetime class
-
-
+# Custom Encoder
 class CustomEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Decimal):
@@ -177,7 +175,7 @@ def get_ml():
 
 @app.route("/api/scen", methods=['GET'])
 def get_json_scen():
-    
+
     session = Session(bind=engine)
     results = session.query(
         ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj)
