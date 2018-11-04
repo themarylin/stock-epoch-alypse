@@ -28,27 +28,23 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
+    <!--D3-->
+    <script src="{{url_for('static', filename='js/d3.min.js')}}"></script>
+
+    <!--Plotly-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Candlestick Chart</title>
-    <link href="https://playground.anychart.com/gallery/Stock_Event_Markers/Stock_Chart_with_Event_Markers/iframe" rel="canonical">
-    <meta content="AJAX Chart,Candlestick Chart,Chart from CSV,Chart using CSV,Financial Chart,Japanese Candlestick Chart,Stock Chart"
-        name="keywords">
-    <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description">
+
+    <!--JQuery-->
+    <script src="{{url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-    <link href="https://cdn.anychart.com/releases/8.4.0/css/anychart-ui.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.anychart.com/releases/8.4.0/fonts/css/anychart-font.min.css" rel="stylesheet" type="text/css">
-    <style>html, body, #container {
-          width: 100%;
-          height: 100%;
-          margin: 0;
-          padding: 0;
-      }</style>
 </head>
 
 <body>
@@ -64,10 +60,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="get-started">Get Started</a></li>
-                    <li class="nav-item"><a class="nav-link" href="machinelearning">Machine Learning</a></li>
-                    <li class="nav-item"><a class="nav-link" href="portfolio">Comparison</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="machinelearning">Machine Learning</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comparison">Comparison</a></li>
                     <li class="nav-item dropdown submenu">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
@@ -98,8 +94,9 @@
         </div>
     </section>
     <!--================End Banner Area =================-->
-    
-    <!--================ Video Area =================--><!--================The Machine Learning Area =================-->
+
+    <!--================ Video Area =================-->
+    <!--================The Machine Learning Area =================-->
     <section class="best_3d_area">
         <div class="left_3d">
             <div class="shap_slider_inner owl-carousel">
@@ -166,21 +163,21 @@
         </div>
     </section>
     <!--================End The best slider Area =================-->
-    <div class="c_video">
-        <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png" alt="">   How does our Machine Learning Work </a>
-    </div>
+    <section class="video_area">
+        <div class="c_video">
+            <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png"
+                    alt=""> How does our Machine Learning Work </a>
+        </div>
+    </section>
     <!--================ End Video Area =================-->
 
 
     <!--================ DIS Chart Area =================-->
-    <div id="container">
-        <script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-base.min.js"></script>
-        <script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-ui.min.js"></script>
-        <script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-exports.min.js"></script>
-        <script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-stock.min.js"></script>
-        <script src="https://cdn.anychart.com/releases/8.4.0/js/anychart-data-adapter.min.js"></script>
-        <script src="{{url_for('static', filename='js/js_group/machine_learning.js')}}"></script>
-    </div>
+    <section class="DIS-result-charts">
+        <div id="DIS_results">
+            <script src="{{url_for('static', filename='js/js_group/machine_learning.js')}}"></script>
+        </div>
+    </section>
     <!--================ End DIS Chart Area =================-->
 
 
@@ -206,11 +203,11 @@
                 <div class="row">
                     <div class="container">
                         <p>Epoch:</p>
-                        <select name="location" class="app-select form-control" required>
+                        <select name="location" class="app-select form-control" id="epoch_dropdown" required>
                             <option data-display="Choose locations">Epoch</option>
-                            <option value="1">25</option>
-                            <option value="2">50</option>
-                            <option value="3">100</option>
+                            <option value="10">10</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
                         </select>
                         <br>
                     </div>
@@ -218,10 +215,11 @@
                 <div class="row">
                     <div class="container">
                         <p>Learning Rate:</p>
-                        <select name="property-type" class="app-select form-control" required>
+                        <select name="property-type" class="app-select form-control" id="learnrate_dropdown" required>
                             <option data-display="Property Type">Learning Rate</option>
-                            <option value="1">0.01</option>
-                            <option value="2">0.005</option>
+                            <option value="0.001">0.001</option>
+                            <option value="0.002">0.002</option>
+                            <option value="0.003">0.003</option>
                         </select>
                         <br>
                     </div>
@@ -229,18 +227,19 @@
                 <div class="row">
                     <div class="container">
                         <p>Stock Ticker:</p>
-                        <select name="property-type" class="app-select form-control" required>
+                        <select name="property-type" class="app-select form-control" id="stock_dropdown" required>
                             <option data-display="Property Type">Company</option>
-                            <option value="1">APPL</option>
-                            <option value="2">CMG</option>
-                            <option value="2">DIS</option>
+                            <option value="AAPL">APPL</option>
+                            <option value="CMG">CMG</option>
+                            <option value="DIS">DIS</option>
                         </select>
                         <br>
                     </div>
                 </div>
                 <div class="row">
                     <div class="container">
-                        <button class="primary-btn">RUN<span class="lnr"></span></button>
+                        <button class="primary-btn" id="ml_button">RUN<span class="lnr"></span></button>
+                        <script src="{{url_for('static', filename='js/js_group/ml_button.js')}}"></script>
                     </div>
                 </div>
             </div>
@@ -252,7 +251,7 @@
             <div class="col-lg-10">
                 <div class="container">
                     <div class="row">
-                        <p>Hello, this is where my custom chart shows up</p>
+                        <div id="ml_manip"></div>
                     </div>
                 </div>
             </div>
