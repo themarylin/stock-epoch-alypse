@@ -14,6 +14,7 @@ from sqlalchemy import create_engine
 from sqlalchemy import text
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import desc
+from sqlalchemy import and_
 
 import pymysql
 import json
@@ -21,11 +22,13 @@ from decimal import *
 
 from flask.json import JSONEncoder
 from datetime import date
+from random import random, randint
 
 pymysql.install_as_MySQLdb()
 load_dotenv()
 
 from NN.pickle_load import load_and_plot
+from rando import randomStock
 import numpy
 
 # Custom Encoder
@@ -65,7 +68,16 @@ conn = engine.connect()
 Base.prepare(engine, reflect=True)
 StockData = Base.classes.sp5data
 ScenarioData = Base.classes.scenarios
+
+#########################################################
+# List of distinct stocks #
+#########################################################
 session = Session(bind=engine)
+stk_list = []
+for stk in session.query(StockData.stock).filter(and_(StockData.date.between('2015-09-30', '2018-09-28'), StockData.adj_close.isnot(None))).distinct():
+    stk_clean = str(stk)[2:-3]
+    stk_list.append(stk_clean)
+session.close()
 
 #########################################################
 # Flask Setup #
@@ -172,27 +184,17 @@ def get_ml():
         }
     )
 
-
-@app.route("/api/scen", methods=['GET'])
-def get_json_scen():
-
+# Endpoint for random stock
+@app.route("/api/rand", methods=['GET'])
+def get_json_rand():
     session = Session(bind=engine)
-    results = session.query(
-        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj)
+    rand_stock_num = randint(0, len(stk_list)-1)
+    rand_stock = stk_list[rand_stock_num]
+    kwargs = {'stock': rand_stock}
+    results = session.query(StockData.date,StockData.stock,StockData.adj_close).filter_by(**kwargs).filter(StockData.date.between('2015-09-30', '2018-09-28'))
     session.close()
-    return jsonify(
-        {
-         'data': [
-             {
-                 'date': result.date.strftime("%Y-%m-%d"),
-                 'ideal_earning': result.ideal_compound_earning_adj,
-                 'snp_500': result.snp500_earning_adj,
-                 'ml': result.ml_earning_adj
-             }
-             for result in results
-         ]
-         }
-    )
+    stock_data = randomStock(rand_stock,results)
+    return jsonify(stock_data)
 
 #########################################################
 if __name__ == '__main__':
