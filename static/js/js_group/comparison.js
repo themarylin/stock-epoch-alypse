@@ -74,7 +74,7 @@ function renderLineChart(x_values, y1, chartname, name) {
         title: 'Earnings: ' + name,
         height: 350,
         yaxis: {
-            tickformat: '.0%'
+            tickformat: '$,'
         }
     };
 
