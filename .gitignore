@@ -10,5 +10,6 @@ test.txt
 *.ipynb_checkpoints*
 
 #_pycache_
-/_pycache_/ *
-/NN/_pycache_/*
+
+/__pycache__/ *
+/NN/__pycache__/*
