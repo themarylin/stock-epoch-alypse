@@ -9,7 +9,8 @@ test.txt
 # jupyter notebook checkpoints
 *.ipynb_checkpoints*
 
-#_pycache_
+#__pycache__
 
-__pycache__/ *
-NN/__pycache__/*
+__pycache__
+NN/__pycache__
+*.pyc

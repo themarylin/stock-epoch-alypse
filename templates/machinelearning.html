@@ -84,52 +84,64 @@
     </section>
     <!--================End Banner Area =================-->
 
-    <!--================ Video Area =================-->
+    
+
+
+    <!--================ DIS Chart Area =================-->
+    <section class="DIS-result-charts">
+        <div id="DIS_results">
+            <script src="{{url_for('static', filename='js/js_group/machine_learning.js')}}"></script>
+        </div>
+    </section>
+    <!--================ End DIS Chart Area =================-->
+
+
+
     <!--================The Machine Learning Area =================-->
     <section class="best_3d_area">
         <div class="left_3d">
             <div class="shap_slider_inner owl-carousel">
                 <div class="item">
                     <h2>What is a Hidden Layer?</h2>
-                    <p>Hidden Layers are: </p>
+                    <p>A hidden layer in an artificial neural network is a layer in between input layers and output layers, where artificial neurons take in a set of weighted inputs and produce an output through an activation function.</p>
                     <div class="media">
                         <img src="img/team/people/people-5.jpg" alt="">
                         <div class="media-body">
-                            <h5># of Hidden Layers:</h5>
-                            <h6>4</h6>
+                            <h5></h5>
+                            <h6>https://www.techopedia.com/definition/33264/hidden-layer-neural-networks</h6>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <h2>What are Epochs?</h2>
-                    <p>Epochs are: </p>
+                    <p>One Epoch is when an entire dataset is passed forward and backward through the neural network only once</p>
                     <div class="media">
                         <img src="img/team/people/people-5.jpg" alt="">
                         <div class="media-body">
-                            <h5># Epochs used: </h5>
-                            <h6>1000</h6>
+                            <h5># Epochs used: 1000</h5>
+                            <h6>https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9</h6>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <h2>What is the Learning Rate?</h2>
-                    <p>Learning Rate is: </p>
+                    <p>Learning rate is a hyper-parameter that controls how much we are adjusting the weights of our network with respect the loss gradient. The lower the value, the slower we travel along the downward slope. While this might be a good idea (using a low learning rate) in terms of making sure that we do not miss any local minima, it could also mean that we'll be taking a long time to converge — especially if we get stuck on a plateau region.</p>
                     <div class="media">
                         <img src="img/team/people/people-5.jpg" alt="">
                         <div class="media-body">
-                            <h5>Our Learning Rate: </h5>
-                            <h6>.003</h6>
+                            <h5>Our Learning Rate: between .001 and .003</h5>
+                            <h6>https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10</h6>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <h2>What is a neuron?</h2>
-                    <p>A Neuron is: </p>
+                    <p>A "neuron" in an artificial neural network is a mathematical approximation of a biological neuron. It takes a vector of inputs, performs a transformation on them, and outputs a single scalar value. It can be thought of as a filter. Typically we use nonlinear filters in neural networks.</p>
                     <div class="media">
                         <img src="img/team/people/people-5.jpg" alt="">
                         <div class="media-body">
-                            <h5># of Neurons used: </h5>
-                            <h6>between 32 and 256</h6>
+                            <h5># of Neurons used: between 32 and 256</h5>
+                            <h6>https://www.quora.com/What-are-neurons-in-machine-learning</h6>
                         </div>
                     </div>
                 </div>
@@ -143,7 +155,7 @@
                         <h6>Our Algorithm</h6>
                         <h2>Adjusted Closing Price</h2>
                     </div>
-                    <p>Our Neural Network utilizes the Random Forest Algorithm to predict next period prices.</p>
+                    <p>Our Neural Network takes into account the S&P 500 Index, trains based on a 75:25, and returns a prediction based on the next day.</p>
                 </div>
                 <div class="shap_mobile">
                     <img src="img/iphone4.png" alt="">
@@ -151,7 +163,11 @@
             </div>
         </div>
     </section>
+
     <!--================End The best slider Area =================-->
+
+
+    <!--================ Video Area =================-->
     <section class="video_area">
         <div class="c_video">
             <a class="popup-youtube" href="https://www.youtube.com/watch?v=62QYQE6k7tg"><img src="img/icon/video-icon.png"
@@ -159,16 +175,6 @@
         </div>
     </section>
     <!--================ End Video Area =================-->
-
-
-    <!--================ DIS Chart Area =================-->
-    <section class="DIS-result-charts">
-        <div id="DIS_results">
-            <script src="{{url_for('static', filename='js/js_group/machine_learning.js')}}"></script>
-        </div>
-    </section>
-    <!--================ End DIS Chart Area =================-->
-
 
 
     <!--================ Build your Network Area =================-->
