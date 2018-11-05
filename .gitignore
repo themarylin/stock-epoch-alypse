@@ -11,5 +11,5 @@ test.txt
 
 #_pycache_
 
-/__pycache__/ *
-/NN/__pycache__/*
+__pycache__/ *
+NN/__pycache__/*

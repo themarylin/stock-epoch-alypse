@@ -55,7 +55,9 @@ function renderLineChart(x_values, y1, y2, chartname) {
         autosize: true,
         title: 'Machine Learning DIS Prediction Results:',
         height: 500,
-
+        yaxis: {
+            tickformat: '$,'
+        },
         //Event Markers - indicating large unprecedented price changes
 
         annotations: [{

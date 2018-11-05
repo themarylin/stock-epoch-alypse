@@ -1,33 +1,44 @@
 var dates = [];
+var dates_rand = [];
 var ideal = [];
 var snp = [];
 var random = [];
 var ml = []
 
-//this is the first chart that shows a comparison of states
+//render charts for all 4 scenarios
+d3.json("api/rand").then(function(rand_response){
+    var jump1 = 50;
+    var stocks1 = rand_response[0].data;
+    var rep1 = Math.floor(stocks1.length / jump1);
+    var rem1 = (stocks1.length % jump1) - 1;
 
+    for (var i = 0; i <= (rep1); i++) {
+        if (i == (rep1)) {
+            for (var j = 0; j < rem1; j++) {
+                var count1 = i * jump1 + j;
+                dates_rand.push(stocks1[count1].date);
+                random.push(+(stocks1[count1].adj_comp_earning).toFixed(2));
+            };
+        } else {
+            for (var j = 0; j < jump1; j++) {
+                var count1 = i * jump1 + j;
+                dates_rand.push(stocks1[count1].date);
+                random.push(+(stocks1[count1].adj_comp_earning).toFixed(2));
+            };
+        }
+    };
 
-// d3.json("api?stock=DIS").then(function (response) {
-//     response.data.forEach(function (d) {
-//         date.push(d.date);
-//         price.push(d.price);
-//         renderLineChart(date, price, 'ideal-chart', 'Ideal');
-//         renderLineChart(date, price, 'random-chart', 'Random');
-//         renderLineChart(date, price, 'ml-chart', 'Machine-Learning');
-//         renderLineChart(date, price, 'snp500-chart', 'S&P 500');
-//     });
+    var ticker = rand_response[0].stock;
+    var name = 'Random (' + ticker + ')';
 
-// })
+    renderLineChart(dates_rand, random, 'random-chart', name);
+});
 
 d3.json("api/scen").then(function (response) {
-    jump = 50;
-    stocks = response.data;
-    rep = Math.floor(stocks.length / jump);
-    rem = (stocks.length % jump) - 1;
-
-    console.log(stocks.length);
-    console.log(rep);
-    console.log(rem);
+    var jump = 50;
+    var stocks = response.data;
+    var rep = Math.floor(stocks.length / jump);
+    var rem = (stocks.length % jump) - 1;
 
     for (var i = 0; i <= (rep); i++) {
         if (i == (rep)) {
@@ -50,7 +61,6 @@ d3.json("api/scen").then(function (response) {
     };
 
     renderLineChart(dates, ideal, 'ideal-chart', 'Ideal (DIS)');
-    renderLineChart(dates, random, 'random-chart', 'Random');
     renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning (DIS)');
     renderLineChart(dates, snp, 'snp500-chart', 'Buy & Hold (S&P 500)');
 })
@@ -74,7 +84,7 @@ function renderLineChart(x_values, y1, chartname, name) {
         title: 'Earnings: ' + name,
         height: 350,
         yaxis: {
-            tickformat: '$,'
+            tickformat: ',.0%'
         }
     };
 

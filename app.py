@@ -196,6 +196,27 @@ def get_json_rand():
     stock_data = randomStock(rand_stock,results)
     return jsonify(stock_data)
 
+# Endpoint for Scenarios Comparison
+@app.route("/api/scen", methods=['GET'])
+def get_json_scen():
+    
+    session = Session(bind=engine)
+    results = session.query(
+        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj)
+    session.close()
+    return jsonify(
+        {
+         'data': [
+             {
+                 'date': result.date.strftime("%Y-%m-%d"),
+                 'ideal_earning': result.ideal_compound_earning_adj,
+                 'snp_500': result.snp500_earning_adj,
+                 'ml': result.ml_earning_adj
+             }
+             for result in results
+         ]
+         }
+    )
 #########################################################
 if __name__ == '__main__':
     app.run(debug=True)
