@@ -72,7 +72,7 @@ function renderLineChart2(x_values, y1, y2, chartname) {
         autosize: true,
         title: 'Machine Learning Manipulator:',
         height: 500,
-        width: 1200
+        width: 1000
     };
 
     Plotly.newPlot(chartname, data, layout);

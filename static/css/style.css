@@ -2074,7 +2074,7 @@ i:before {
 }
 
 .insta_widget ul li {
-  width: calc(100% / 3);
+  width: calc(100% / 5);
   float: left;
   overflow: hidden;
 }
@@ -2317,7 +2317,7 @@ i:before {
 }
 
 .f_insta_widget ul li {
-  width: calc(100% / 4);
+  width: calc(100% / 5);
   float: left;
 }
 
