@@ -22,20 +22,9 @@
 
     <!-- Extra plugin css -->
     <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
-    <link href="vendors/magnify-popup/magnific-popup.css" rel="stylesheet">
-
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
-    <!--D3-->
-    <script src="{{url_for('static', filename='js/d3.min.js')}}"></script>
-
-    <!--Plotly-->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-    <!--Graph JSScript-->
-    <script src="{{url_for('static', filename='js/js_group/comparison.js')}}"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,96 +48,70 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="get-started">Get Started</a></li>
                     <li class="nav-item"><a class="nav-link" href="machinelearning">Machine Learning</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="comparison">Comparison</a></li>
-                    <li class="nav-item"><a class="nav-link" href="apiendpoints">API Endpoints</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comparison">Comparison</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="apiendpoints">API Endpoints</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!--================End Header Menu Area =================-->
 
+
     <!--================Banner Area =================-->
     <section class="banner_area">
         <div class="container">
             <div class="banner_inner_text">
-                <h2>Comparison</h2>
-                <p>Why/WhyNot Machine Learning</p>
+                <h2>API Endpoints</h2>
+                <p>Routes and Examples</p>
             </div>
         </div>
     </section>
     <!--================End Banner Area =================-->
 
 
-    <!--================ Comparison Chart Area =================-->
-    <section class="graph_area_comparison">
-        <div class="containter">
-            <div class="row">
-                <div class="col-lg-6" id="ideal-chart"></div>
-                <div class="col-lg-6" id="random-chart"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6" id="ml-chart"></div>
-                <div class="col-lg-6" id="snp500-chart"></div>
-            </div>
-        </div>
-    </section>
-    <!--================End Comparison Chart Area =================-->
-
-
-    <!--================Circle Chart Area =================-->
-    <section class="circle_chart_area">
+    <!--================ API Endpoint Example Area ================-->
+    <section class="endpoint_area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="circle_progress circular style-polygon" dpercentage="893" data-thickness="3"
-                        data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner">
-                            <strong></strong>
-                            <span class="percentage"></span>
-                            <h4>Ideal Trading</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div id="random_percent" class="circle_progress circular style-polygon" dpercentage="0" data-thickness="3"
-                        data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner">
-                            <strong></strong>
-                            <span class="percentage"></span>
-                            <h4>Random Buy/Sell</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="circle_progress circular style-polygon" dpercentage="10.47" data-thickness="3"
-                        data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner">
-                            <strong></strong>
-                            <span class="percentage"></span>
-                            <h4>Machine Learning</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="circle_progress circular style-polygon" dpercentage="51.76" data-thickness="3"
-                        data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
-                        <div class="circle_progress_inner">
-                            <strong></strong>
-                            <span class="percentage"></span>
-                            <h4>Buy and Hold S&P 500</h4>
-                        </div>
-                    </div>
-                </div>
+                <ul>
+                    <li>
+                        <p>Historical DIS stock prices</p>
+                        <a href="/api">/api</a>
+                    </li>
+                    <br>
+                    <li>
+                        <p>Endpoint for Machine Learning Results:
+                        Query Arguments:</p>
+                        <a href="/api/ml?stock=DIS&epochs=1000&learnrate=0.0003&split=0.75">
+                            /api/ml?stock={ticker}&epochs={value}&learnrate={value}&split={value}</a>
+                    </li>
+                    <br>
+                    <li>
+                        <p>Random Stock Results</p>
+                        <a href="/api/rand">
+                        /api/rand</a>
+                    </li>
+                    <br>
+                    <li>
+                        <p>Comparison Data Results</p>
+                        <a href="/api/scen">
+                        /api/scen</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
-    <!--================End Circle Chart Area =================-->
+    <br>
+
+    <!--================ End API Endpoint Example Area ================-->
+
+
 
     <!--================Footer Area =================-->
-    
+
     <footer class="footer_area">
         <div class="footer_widget_area">
             <div class="container">
@@ -184,7 +147,8 @@
             <div class="container">
                 <div class="float-sm-left">
                     <h5>
-                        <p>Copyright | All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <p>Copyright | All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i>
                             by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>
@@ -223,12 +187,7 @@
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
     <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/smoothscroll.js"></script>
-    <script src="vendors/circle-bar/circle-progress.min.js"></script>
-    <script src="vendors/circle-bar/plugins.js"></script>
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
 
-    <script src="js/circle-active.js"></script>
     <script src="js/theme.js"></script>
 </body>
 

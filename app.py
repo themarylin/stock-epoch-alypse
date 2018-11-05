@@ -110,6 +110,10 @@ def machinelearning():
 def comparison():
     return render_template('comparison.html')
 
+@app.route("/apiendpoints")
+def endpoints():
+    return render_template('apiendpoints.html')
+
 #########################################################
 # API Endpoints #
 ########################################################
@@ -120,7 +124,7 @@ def get_json():
     stock_ticker = request.args.get('stock')
     session = Session(bind=engine)
     results = session.query(
-        StockData.date, StockData.adj_close).filter_by(stock=stock_ticker).limit(2000).all()
+        StockData.date, StockData.adj_close).filter_by(stock=stock_ticker)
     session.close()
     return jsonify(
         {'company': stock_ticker,
