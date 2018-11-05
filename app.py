@@ -110,32 +110,6 @@ def machinelearning():
 def comparison():
     return render_template('comparison.html')
 
-@app.route("/events")
-def events():
-    return render_template('chartwitheventmarker.html')
-
-#########################################################
-
-
-@app.route("/blog")
-def blog():
-    return render_template('blog.html')
-
-
-@app.route("/contact")
-def contact():
-    return render_template('contact.html')
-
-
-@app.route("/elements")
-def elements():
-    return render_template('elements.html')
-
-
-@app.route("/single-blog")
-def single():
-    return render_template('single-blog.html')
-
 #########################################################
 # API Endpoints #
 ########################################################
