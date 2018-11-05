@@ -6,11 +6,18 @@ var random = [];
 var ml = []
 
 //render charts for all 4 scenarios
-d3.json("api/rand").then(function(rand_response){
+d3.json("api/rand").then(function (rand_response) {
     var jump1 = 50;
     var stocks1 = rand_response[0].data;
     var rep1 = Math.floor(stocks1.length / jump1);
     var rem1 = (stocks1.length % jump1) - 1;
+    var random_perc = (stocks1[stocks1.length - 1].adj_comp_earning)*100;
+    console.log(random_perc);
+    if (random_perc < 0){
+        random_perc = 0;
+    };
+    var a = document.getElementById("random_percent");
+    a.setAttribute("dpercentage", random_perc.toFixed(0));
 
     for (var i = 0; i <= (rep1); i++) {
         if (i == (rep1)) {

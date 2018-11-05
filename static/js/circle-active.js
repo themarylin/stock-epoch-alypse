@@ -10,9 +10,9 @@
 			el.each(function() {
 				var $this = $(this),
 					inner = $this.find('.circle_progress_inner'),
-					percentage = $this.attr('data-percentage') + '%';
+					percentage = $this.attr('dpercentage') + '%';
 				if ($this.hasClass('circular')) {
-                    var dataparcent = $this.attr('data-percentage');
+                    var dataparcent = $this.attr('dpercentage');
 					var progress = inner.circleProgress({
 						value: 0,
 						size:175,
@@ -69,7 +69,7 @@
 		};
 	};
     
-    initSkillBars();
+    setTimeout(initSkillBars,6000);
     
     
 })(jQuery)
