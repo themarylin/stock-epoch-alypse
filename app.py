@@ -84,6 +84,7 @@ session.close()
 #########################################################
 
 app = Flask(__name__, static_folder='./static', static_url_path='')
+app.config['JSON_SORT_KEYS'] = False
 app.json_encoder = CustomEncoder
 
 #########################################################
