@@ -125,7 +125,7 @@ def get_json():
     stock_ticker = request.args.get('stock')
     session = Session(bind=engine)
     results = session.query(
-        StockData.date, StockData.adj_close).filter_by(stock=stock_ticker)
+        StockData.date, StockData.adj_close).filter_by(stock=stock_ticker).limit(2000).all()
     session.close()
     return jsonify(
         {'company': stock_ticker,
