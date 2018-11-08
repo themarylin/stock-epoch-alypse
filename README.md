@@ -1,4 +1,5 @@
 # Stock Epoch-Alypse
+Deployed on AWS: http://ec2-3-16-30-247.us-east-2.compute.amazonaws.com:5000/
 
 ## Introduction
 This application is designed for stock market newcomers and how they can use machine learning for trading. 
