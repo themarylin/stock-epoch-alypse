@@ -91,7 +91,6 @@ app.json_encoder = CustomEncoder
 # Flask Routes #
 #########################################################
 
-
 @app.route("/")
 def index():
     return render_template('index.html')
@@ -114,6 +113,10 @@ def comparison():
 @app.route("/apiendpoints")
 def endpoints():
     return render_template('apiendpoints.html')
+
+@app.route("/aboutus")
+def aboutus():
+    return render_template('aboutus.html')
 
 #########################################################
 # API Endpoints #

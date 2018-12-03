@@ -29,6 +29,7 @@ d3.json("/api/ml?stock=DIS&epochs=1000&learnrate=0.0003&split=0.75").then(functi
     };
     
     renderLineChart(dates, pred, his, 'DIS_results');
+    renderLineChart2(dates, pred, his, 'ml_manip');
 
 });
 
@@ -53,7 +54,6 @@ function renderLineChart(x_values, y1, y2, chartname) {
 
     var layout = {
         autosize: true,
-        title: 'Machine Learning DIS Prediction Results:',
         height: 500,
         yaxis: {
             tickformat: '$,'
@@ -139,6 +139,34 @@ function renderLineChart(x_values, y1, y2, chartname) {
         }
     
     ]
+    };
+
+    Plotly.newPlot(chartname, data, layout);
+};
+function renderLineChart2(x_values, y1, y2, chartname) {
+    var trace1 = {
+        x: x_values,
+        y: y1,
+        name: 'Prediction',
+        mode: 'lines',
+        line: {
+            color: '#17BECF'
+        }
+    };
+    var trace2 = {
+        x: x_values,
+        y: y2,
+        name: 'Historical',
+        mode: 'lines'
+    };
+
+    var data = [trace1, trace2];
+
+    var layout = {
+        autosize: true,
+        title: 'Machine Learning Manipulator:',
+        height: 500,
+        width: 1000
     };
 
     Plotly.newPlot(chartname, data, layout);
