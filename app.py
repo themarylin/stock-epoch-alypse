@@ -67,21 +67,21 @@ conn = engine.connect()
 # Generating base classes
 Base.prepare(engine, reflect=True)
 StockData = Base.classes.sp5data
-ScenarioData = Base.classes.scenarios
+ScenarioData = Base.classes.stk_scenarios
 
-#########################################################
-# List of distinct stocks #
-#########################################################
-session = Session(bind=engine)
-stk_list = []
-for stk in session.query(StockData.stock).filter(and_(StockData.date.between('2015-09-30', '2018-09-28'), StockData.adj_close.isnot(None))).distinct():
-    stk_clean = str(stk)[2:-3]
-    stk_list.append(stk_clean)
-session.close()
-
-#########################################################
-# Flask Setup #
-#########################################################
+# #########################################################
+# # List of distinct stocks #
+# #########################################################
+# session = Session(bind=engine)
+# stk_list = []
+# for stk in session.query(StockData.stock).filter(and_(StockData.date.between('2015-09-30', '2018-09-28'), StockData.adj_close.isnot(None))).distinct():
+#     stk_clean = str(stk)[2:-3]
+#     stk_list.append(stk_clean)
+# session.close()
+#
+# #########################################################
+# # Flask Setup #
+# #########################################################
 
 app = Flask(__name__, static_folder='./static', static_url_path='')
 app.config['JSON_SORT_KEYS'] = False
@@ -169,25 +169,26 @@ def get_ml():
 # Endpoint for random stock
 @app.route("/api/rand", methods=['GET'])
 def get_json_rand():
+    stock_ticker = request.args.get('stock')
     session = Session(bind=engine)
-    rand_stock_num = randint(0, len(stk_list)-1)
-    rand_stock = stk_list[rand_stock_num]
-    kwargs = {'stock': rand_stock}
+    kwargs = {'stock': stock_ticker}
     results = session.query(StockData.date,StockData.stock,StockData.adj_close).filter_by(**kwargs).filter(StockData.date.between('2015-09-30', '2018-09-28'))
     session.close()
-    stock_data = randomStock(rand_stock,results)
+    stock_data = randomStock(stock_ticker,results)
     return jsonify(stock_data)
 
 # Endpoint for Scenarios Comparison
 @app.route("/api/scen", methods=['GET'])
 def get_json_scen():
-    
+    stock_ticker = request.args.get('stock')
     session = Session(bind=engine)
+    kwargs = {'stock': stock_ticker}
     results = session.query(
-        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj)
+        ScenarioData.date, ScenarioData.ideal_compound_earning_adj, ScenarioData.snp500_earning_adj, ScenarioData.ml_earning_adj).filter_by(**kwargs)
     session.close()
     return jsonify(
         {
+        "stock": stock_ticker,
          'data': [
              {
                  'date': result.date.strftime("%Y-%m-%d"),
