@@ -37,6 +37,9 @@
     <!--Graph JSScript-->
     <script src="{{url_for('static', filename='js/js_group/comparison.js')}}"></script>
 
+    <!--JQuery-->
+    <script src="{{url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -64,6 +67,7 @@
                     <li class="nav-item"><a class="nav-link" href="machinelearning">Machine Learning</a></li>
                     <li class="nav-item active"><a class="nav-link" href="comparison">Comparison</a></li>
                     <li class="nav-item"><a class="nav-link" href="apiendpoints">API Endpoints</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus">About Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -78,20 +82,46 @@
                 <p>Why/WhyNot Machine Learning</p>
             </div>
         </div>
+        <div class="container">
+            <br>
+            <div class="row">
+                <p>In order to qualify our algorithm's performance, we compare it to three other scenarios. The first
+                    is the standard S&P 500 index trade results. This is a standard benchmark used by many financial
+                    professionals, and our algorithm hopes to outperform this index. The second scenario is a random
+                    scenario calculated by randomly applying a buy or sell decision at the end of each business day.
+                    Finally, our third scenario presents the most ideal scenario, where only profitable transactions
+                    are exchanged.</p>
+                <p>Choose between five different stocks: Disney(DIS), Chiptole(CMG), CVS, Apple(APPL), Exon Mobile(XOM)</p>
+            </div>
+        </div>
     </section>
     <!--================End Banner Area =================-->
+
+    <!--================ Button Area =================-->
+    <br>
+    <section class="buttons">
+        <div class="container">
+            <button type="button" class="btn btn-secondary" aria-pressed="true" id="DIS">Disney</button>
+            <button type="button" class="btn btn-secondary" aria-pressed="true" id="CMG">Chipotle</button>
+            <button type="button" class="btn btn-secondary" aria-pressed="true" id="APPL">Apple</button>
+            <button type="button" class="btn btn-secondary" aria-pressed="true" id="CVS">CVS</button>
+            <button type="button" class="btn btn-secondary" aria-pressed="true" id="XOM">Exon Mobile</button>
+            <script src="{{url_for('static', filename='js/js_group/five_stock_button.js')}}"></script>
+        </div>
+    </section>
+    <!--================ End Button Area =================-->
 
 
     <!--================ Comparison Chart Area =================-->
     <section class="graph_area_comparison">
         <div class="containter">
             <div class="row">
-                <div class="col-lg-6" id="ideal-chart"></div>
+                <div class="col-lg-6" id="snp500-chart"></div>
                 <div class="col-lg-6" id="random-chart"></div>
             </div>
             <div class="row">
                 <div class="col-lg-6" id="ml-chart"></div>
-                <div class="col-lg-6" id="snp500-chart"></div>
+                <div class="col-lg-6" id="ideal-chart"></div>
             </div>
         </div>
     </section>
@@ -113,8 +143,9 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <div id="random_percent" class="circle_progress circular style-polygon" dpercentage="0" data-thickness="3"
-                        data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                    <div id="random_percent" class="circle_progress circular style-polygon" dpercentage="0"
+                        data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff"
+                        data-end-color="#7acaff">
                         <div class="circle_progress_inner">
                             <strong></strong>
                             <span class="percentage"></span>
@@ -148,7 +179,7 @@
     <!--================End Circle Chart Area =================-->
 
     <!--================Footer Area =================-->
-    
+
     <footer class="footer_area">
         <div class="footer_widget_area">
             <div class="container">
@@ -184,7 +215,8 @@
             <div class="container">
                 <div class="float-sm-left">
                     <h5>
-                        <p>Copyright | All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <p>Copyright | All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i>
                             by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>

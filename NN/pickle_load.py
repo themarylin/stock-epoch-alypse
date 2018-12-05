@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def load_and_plot(n_neurons, n_epochs, learning_rate, future_days, stock_ticker, split):
-    file_name = "NN/"+stock_ticker+"/"+str(n_neurons) + "_" + str(n_epochs) + "_" + \
+    file_name = "NN/stocks/"+str(n_neurons) + "_" + str(n_epochs) + "_" + \
         str(learning_rate) + "_" + str(future_days) + "_" + str(stock_ticker) + "_" + str(split)
     [pred, actual, dates_test] = pickle.load(
         open(file_name + ".p", "rb"))  # loading pickle file that was created from the stock_pred file

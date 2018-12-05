@@ -66,7 +66,6 @@ d3.json("api/scen").then(function (response) {
             };
         }
     };
-
     renderLineChart(dates, ideal, 'ideal-chart', 'Ideal (DIS)');
     renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning (DIS)');
     renderLineChart(dates, snp, 'snp500-chart', 'Buy & Hold (S&P 500)');
@@ -74,13 +73,18 @@ d3.json("api/scen").then(function (response) {
 
 //this builds the bar chart for the first half of html
 function renderLineChart(x_values, y1, chartname, name) {
+    if (chartname == 'snp500-chart') {
+        line_color = '#000000';
+    } else {
+        line_color = '#17BECF';
+    };
     var trace1 = {
         x: x_values,
         y: y1,
         text: y1,
         mode: 'lines',
         line: {
-            color: '#17BECF'
+            color: line_color
         }
     };
 
