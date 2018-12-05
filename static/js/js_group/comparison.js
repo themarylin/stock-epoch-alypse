@@ -76,7 +76,7 @@ function renderLineChart(x_values, y1, chartname, name) {
     if (chartname == 'snp500-chart') {
         line_color = '#000000';
     } else {
-        line_color = '#17BECF';
+        line_color = '#FF0000';
     };
     var trace1 = {
         x: x_values,

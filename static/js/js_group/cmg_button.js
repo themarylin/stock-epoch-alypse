@@ -1,23 +1,18 @@
 //this calls the button function and extracts values based on user input
 $(document).ready(function () {
-    $('#DIS').on('click', values = json_url);
-    $('#CMG').on('click', values = json_url);
-    $('#CVS').on('click', values = json_url);
-    $('#APPL').on('click', values = json_url);
-    $('#XOM').on('click', values = json_url);
+    $('#CMG').on('click', values = cmg_url);
 });
 
-function json_url() {
+function cmg_url() {
 
     var dates = [];
     var dates_rand = [];
     var ideal = [];
-    var snp = [];
     var random = [];
     var ml = []
 
     //render charts for all 4 scenarios
-    d3.json("api/rand").then(function (rand_response) {
+    d3.json("api/rand?stock=CMG").then(function (rand_response) {
         var jump1 = 50;
         var stocks1 = rand_response[0].data;
         var rep1 = Math.floor(stocks1.length / jump1);
@@ -52,7 +47,7 @@ function json_url() {
         renderLineChart(dates_rand, random, 'random-chart', name);
     });
 
-    d3.json("api/scen").then(function (response) {
+    d3.json("api/scen?stock=CMG").then(function (response) {
         var jump = 50;
         var stocks = response.data;
         var rep = Math.floor(stocks.length / jump);
@@ -64,7 +59,6 @@ function json_url() {
                     var count = i * jump + j;
                     dates.push(stocks[count].date);
                     ideal.push(+(stocks[count].ideal_earning).toFixed(2));
-                    snp.push(+(stocks[count].snp_500).toFixed(2));
                     ml.push(+(stocks[count].ml).toFixed(2));
                 };
             } else {
@@ -72,14 +66,12 @@ function json_url() {
                     var count = i * jump + j;
                     dates.push(stocks[count].date);
                     ideal.push(+(stocks[count].ideal_earning).toFixed(2));
-                    snp.push(+(stocks[count].snp_500).toFixed(2));
                     ml.push(+(stocks[count].ml).toFixed(2));
                 };
             }
         };
-        renderLineChart(dates, ideal, 'ideal-chart', 'Ideal (DIS)');
-        renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning (DIS)');
-        renderLineChart(dates, snp, 'snp500-chart', 'Buy & Hold (S&P 500)');
+        renderLineChart(dates, ideal, 'ideal-chart', 'Ideal (CMG)');
+        renderLineChart(dates, ml, 'ml-chart', 'Machine-Learning (CMG)');
     })
 
     //this builds the bar chart for the first half of html
@@ -87,7 +79,7 @@ function json_url() {
         if (chartname == 'snp500-chart') {
             line_color = '#000000';
         } else {
-            line_color = '#FF0000';
+            line_color = '#FF6133';
         };
         var trace1 = {
             x: x_values,
