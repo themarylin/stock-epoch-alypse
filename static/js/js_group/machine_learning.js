@@ -4,7 +4,7 @@ var pred = [];
 var his = [];
 
 //this is the first chart that shows a comparison of states
-d3.json("/api/ml?stock=DIS&epochs=1000&learnrate=0.0003&split=0.75").then(function (response) {
+d3.json("/api/ml?stock=DIS&epochs=1000&learnrate=0.003&split=0.75").then(function (response) {
     jump = 50;
     stocks = response.data;
     rep = Math.floor(stocks.length / jump);
