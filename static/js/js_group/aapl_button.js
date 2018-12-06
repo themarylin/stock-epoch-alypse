@@ -1,6 +1,6 @@
 //this calls the button function and extracts values based on user input
 $(document).ready(function () {
-    $('#CMG').on('click', values = aapl_url);
+    $('#APL').on('click', values = aapl_url);
 });
 
 function aapl_url() {

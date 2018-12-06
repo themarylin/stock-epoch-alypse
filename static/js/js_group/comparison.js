@@ -6,7 +6,7 @@ var random = [];
 var ml = []
 
 //render charts for all 4 scenarios
-d3.json("api/rand").then(function (rand_response) {
+d3.json("api/rand?stock=DIS").then(function (rand_response) {
     var jump1 = 50;
     var stocks1 = rand_response[0].data;
     var rep1 = Math.floor(stocks1.length / jump1);
@@ -41,7 +41,7 @@ d3.json("api/rand").then(function (rand_response) {
     renderLineChart(dates_rand, random, 'random-chart', name);
 });
 
-d3.json("api/scen").then(function (response) {
+d3.json("api/scen?stock=DIS").then(function (response) {
     var jump = 50;
     var stocks = response.data;
     var rep = Math.floor(stocks.length / jump);
